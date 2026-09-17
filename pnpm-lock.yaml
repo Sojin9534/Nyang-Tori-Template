@@ -1,0 +1,1606 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+overrides:
+  miniflare>sharp: 0.35.4
+
+importers:
+
+  .:
+    dependencies:
+      '@base-ui/react':
+        specifier: ^1.7.0
+        version: 1.7.0(@date-fns/tz@1.5.0)(@types/react@19.2.14)(date-fns@4.4.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      '@hookform/resolvers':
+        specifier: ^5.7.1
+        version: 5.7.1(@standard-schema/spec@1.1.0)(ajv-formats@2.1.1(ajv@8.20.0))(ajv@8.20.0)(react-hook-form@7.85.0(react@19.2.6))(zod@3.25.76)
+      '@shadcn/react':
+        specifier: ^0.3.0
+        version: 0.3.0(@types/react@19.2.14)(react@19.2.6)
+      class-variance-authority:
+        specifier: 0.7.1
+        version: 0.7.1
+      clsx:
+        specifier: 2.1.1
+        version: 2.1.1
+      cmdk:
+        specifier: ^1.1.1
+        version: 1.1.1(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      date-fns:
+        specifier: ^4.4.0
+        version: 4.4.0
+      drizzle-orm:
+        specifier: 0.45.2
+        version: 0.45.2(@cloudflare/workers-types@4.20260515.1)
+      embla-carousel-react:
+        specifier: ^8.6.0
+        version: 8.6.0(react@19.2.6)
+      input-otp:
+        specifier: ^1.4.2
+        version: 1.4.2(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      lucide-react:
+        specifier: ^1.31.0
+        version: 1.31.0(react@19.2.6)
+      next:
+        specifier: 16.3.4
+        version: 16.3.4(@babel/core@7.29.0(supports-color@10.2.2))(@types/node@22.19.19)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      next-themes:
+        specifier: ^0.4.6
+        version: 0.4.6(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      radix-ui:
+        specifier: ^1.6.7
+        version: 1.6.7(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      react:
+        specifier: 19.2.6
+        version: 19.2.6
+      react-day-picker:
+        specifier: ^10.0.1
+        version: 10.0.1(@types/react@19.2.14)(react@19.2.6)
+      react-dom:
+        specifier: 19.2.6
+        version: 19.2.6(react@19.2.6)
+      react-hook-form:
+        specifier: ^7.85.0
+        version: 7.85.0(react@19.2.6)
+      react-resizable-panels:
+        specifier: ^4.12.2
+        version: 4.12.2(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      recharts:
+        specifier: ^3.8.0
+        version: 3.8.0(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react-is@16.13.1)(react@19.2.6)(redux@5.0.1)
+      sonner:
+        specifier: ^2.0.8
+        version: 2.0.8(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      tailwind-merge:
+        specifier: 3.6.0
+        version: 3.6.0
+      vaul:
+        specifier: ^1.1.2
+        version: 1.1.2(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      zod:
+        specifier: ^3.25.76
+        version: 3.25.76
+    devDependencies:
+      '@cloudflare/vite-plugin':
+        specifier: 1.37.1
+        version: 1.37.1(@types/node@22.19.19)(vite@8.0.13(@types/node@22.19.19)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.47.1)(tsx@4.22.1))(workerd@1.20260515.1)(wrangler@4.92.0(@cloudflare/workers-types@4.20260515.1)(@types/node@22.19.19))
+      '@cloudflare/workers-types':
+        specifier: 4.20260515.1
+        version: 4.20260515.1
+      '@tailwindcss/postcss':
+        specifier: 4.2.1
+        version: 4.2.1
+      '@types/node':
+        specifier: 22.19.19
+        version: 22.19.19
+      '@types/react':
+        specifier: 19.2.14
+        version: 19.2.14
+      '@types/react-dom':
+        specifier: 19.2.3
+        version: 19.2.3(@types/react@19.2.14)
+      '@vitejs/plugin-react':
+        specifier: 6.0.2
+        version: 6.0.2(vite@8.0.13(@types/node@22.19.19)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.47.1)(tsx@4.22.1))
+      '@vitejs/plugin-rsc':
+        specifier: 0.5.26
+        version: 0.5.26(react-dom@19.2.6(react@19.2.6))(react-server-dom-webpack@19.2.6(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(webpack@5.106.2(esbuild@0.28.0)(lightningcss@1.32.0)(postcss@8.5.23)))(react@19.2.6)(vite@8.0.13(@types/node@22.19.19)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.47.1)(tsx@4.22.1))
+      drizzle-kit:
+        specifier: 0.31.10
+        version: 0.31.10
+      eslint:
+        specifier: 9.39.4
+        version: 9.39.4(jiti@2.7.0)(supports-color@10.2.2)
+      eslint-config-next:
+        specifier: 16.3.4
+        version: 16.3.4(@typescript-eslint/parser@8.59.3(eslint@9.39.4(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)
+      react-server-dom-webpack:
+        specifier: 19.2.6
+        version: 19.2.6(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(webpack@5.106.2(esbuild@0.28.0)(lightningcss@1.32.0)(postcss@8.5.23))
+      tailwindcss:
+        specifier: 4.2.1
+        version: 4.2.1
+      tw-animate-css:
+        specifier: ^1.4.0
+        version: 1.4.0
+      typescript:
+        specifier: 5.9.3
+        version: 5.9.3
+      vinext:
+        specifier: 1.0.0-beta.5
+        version: 1.0.0-beta.5(@vitejs/plugin-react@6.0.2(vite@8.0.13(@types/node@22.19.19)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.47.1)(tsx@4.22.1)))(@vitejs/plugin-rsc@0.5.26(react-dom@19.2.6(react@19.2.6))(react-server-dom-webpack@19.2.6(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(webpack@5.106.2(esbuild@0.28.0)(lightningcss@1.32.0)(postcss@8.5.23)))(react@19.2.6)(vite@8.0.13(@types/node@22.19.19)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.47.1)(tsx@4.22.1)))(next@16.3.4(@babel/core@7.29.0(supports-color@10.2.2))(@types/node@22.19.19)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(react-dom@19.2.6(react@19.2.6))(react-server-dom-webpack@19.2.6(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(webpack@5.106.2(esbuild@0.28.0)(lightningcss@1.32.0)(postcss@8.5.23)))(react@19.2.6)(vite@8.0.13(@types/node@22.19.19)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.47.1)(tsx@4.22.1))
+      vite:
+        specifier: 8.0.13
+        version: 8.0.13(@types/node@22.19.19)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.47.1)(tsx@4.22.1)
+      wrangler:
+        specifier: 4.92.0
+        version: 4.92.0(@cloudflare/workers-types@4.20260515.1)(@types/node@22.19.19)
+
+packages:
+
+  '@alloc/quick-lru@5.2.0':
+    resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
+    engines: {node: '>=10'}
+
+  '@babel/code-frame@7.29.0':
+    resolution: {integrity: sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/compat-data@7.29.3':
+    resolution: {integrity: sha512-LIVqM46zQWZhj17qA8wb4nW/ixr2y1Nw+r1etiAWgRM6U1IqP+LNhL1yg440jYZR72jCWcWbLWzIosH+uP1fqg==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/core@7.29.0':
+    resolution: {integrity: sha512-CGOfOJqWjg2qW/Mb6zNsDm+u5vFQ8DxXfbM09z69p5Z6+mE1ikP2jUXw+j42Pf1XTYED2Rni5f95npYeuwMDQA==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/generator@7.29.1':
+    resolution: {integrity: sha512-qsaF+9Qcm2Qv8SRIMMscAvG4O3lJ0F1GuMo5HR/Bp02LopNgnZBC/EkbevHFeGs4ls/oPz9v+Bsmzbkbe+0dUw==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-compilation-targets@7.28.6':
+    resolution: {integrity: sha512-JYtls3hqi15fcx5GaSNL7SCTJ2MNmjrkHXg4FSpOA/grxK8KwyZ5bubHsCq8FXCkua6xhuaaBit+3b7+VZRfcA==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-globals@7.28.0':
+    resolution: {integrity: sha512-+W6cISkXFa1jXsDEdYA8HeevQT/FULhxzR99pxphltZcVaugps53THCeiWA8SguxxpSp3gKPiuYfSWopkLQ4hw==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-module-imports@7.28.6':
+    resolution: {integrity: sha512-l5XkZK7r7wa9LucGw9LwZyyCUscb4x37JWTPz7swwFE/0FMQAGpiWUZn8u9DzkSBWEcK25jmvubfpw2dnAMdbw==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-module-transforms@7.28.6':
+    resolution: {integrity: sha512-67oXFAYr2cDLDVGLXTEABjdBJZ6drElUSI7WKp70NrpyISso3plG9SAGEF6y7zbha/wOzUByWWTJvEDVNIUGcA==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+
+  '@babel/helper-string-parser@7.27.1':
+    resolution: {integrity: sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-validator-identifier@7.28.5':
+    resolution: {integrity: sha512-qSs4ifwzKJSV39ucNjsvc6WVHs6b7S03sOh2OcHF9UHfVPqWWALUsNUVzhSBiItjRZoLHx7nIarVjqKVusUZ1Q==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-validator-option@7.27.1':
+    resolution: {integrity: sha512-YvjJow9FxbhFFKDSuFnVCe2WxXk1zWc22fFePVNEaWJEu8IrZVlda6N0uHwzZrUM1il7NC9Mlp4MaJYbYd9JSg==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helpers@7.29.2':
+    resolution: {integrity: sha512-HoGuUs4sCZNezVEKdVcwqmZN8GoHirLUcLaYVNBK2J0DadGtdcqgr3BCbvH8+XUo4NGjNl3VOtSjEKNzqfFgKw==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/parser@7.29.3':
+    resolution: {integrity: sha512-b3ctpQwp+PROvU/cttc4OYl4MzfJUWy6FZg+PMXfzmt/+39iHVF0sDfqay8TQM3JA2EUOyKcFZt75jWriQijsA==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
+  '@babel/runtime@7.29.7':
+    resolution: {integrity: sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/template@7.28.6':
+    resolution: {integrity: sha512-YA6Ma2KsCdGb+WC6UpBVFJGXL58MDA6oyONbjyF/+5sBgxY/dwkhLogbMT2GXXyU84/IhRw/2D1Os1B/giz+BQ==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/traverse@7.29.0':
+    resolution: {integrity: sha512-4HPiQr0X7+waHfyXPZpWPfWL/J7dcN1mx9gL6WdQVMbPnF3+ZhSMs8tCxN7oHddJE9fhNE7+lxdnlyemKfJRuA==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/types@7.29.0':
+    resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
+    engines: {node: '>=6.9.0'}
+
+  '@base-ui/react@1.7.0':
+    resolution: {integrity: sha512-j+8QjX44C32jrXD/qyEAGpFr70FRpGL2CY61mQd9nBPWN737CK0xxD1ceJ055rW4RtdvFDT1e7otzdlfxvsYug==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      '@date-fns/tz': ^1.2.0
+      '@types/react': ^17 || ^18 || ^19
+      date-fns: ^4.0.0
+      react: ^17 || ^18 || ^19
+      react-dom: ^17 || ^18 || ^19
+    peerDependenciesMeta:
+      '@date-fns/tz':
+        optional: true
+      '@types/react':
+        optional: true
+      date-fns:
+        optional: true
+
+  '@base-ui/utils@0.3.2':
+    resolution: {integrity: sha512-oWy1aq/I2GmYjpl4PhEAhzflF8VPGKgZeq0xAWTbfD5KBWyxcN0ZP2+WHSUm/5Z6lVMBDLReLcoXwSYoRc/zNQ==}
+    peerDependencies:
+      '@types/react': ^17 || ^18 || ^19
+      react: ^17 || ^18 || ^19
+      react-dom: ^17 || ^18 || ^19
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+
+  '@cloudflare/kv-asset-handler@0.5.0':
+    resolution: {integrity: sha512-jxQYkj8dSIzc0cD6cMMNdOc1UVjqSqu8BZdor5s8cGjW2I8BjODt/kWPVdY+u9zj3ms75Q5qaZgnxUad83+eAg==}
+    engines: {node: '>=22.0.0'}
+
+  '@cloudflare/unenv-preset@2.16.1':
+    resolution: {integrity: sha512-ECxObrMfyTl5bhQf/lZCXwo5G6xX9IAUo+nDMKK4SZ8m4Jvvxp52vilxyySSWh2YTZz8+HQ07qGH/2rEom1vDw==}
+    peerDependencies:
+      unenv: 2.0.0-rc.24
+      workerd: '>1.20260305.0 <2.0.0-0'
+    peerDependenciesMeta:
+      workerd:
+        optional: true
+
+  '@cloudflare/vite-plugin@1.37.1':
+    resolution: {integrity: sha512-FldhsmkXyLsX3yI+p0aJDo/kGyY69pDdynz2JjcuH3eCiQ+G9XaY3CrN+UYEfCbWv8CiR2wL95lNg0fT/HfwWA==}
+    peerDependencies:
+      vite: ^6.1.0 || ^7.0.0 || ^8.0.0
+      wrangler: ^4.92.0
+
+  '@cloudflare/workerd-darwin-64@1.20260515.1':
+    resolution: {integrity: sha512-Wtw44el2pNbzixvTkWdfeBDTrQwQbJRz7/JUvPKV27I0pQWXbhNJPpM8cstq/pbrU5AGcA/HjFH6yPMRTIRKig==}
+    engines: {node: '>=16'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@cloudflare/workerd-darwin-arm64@1.20260515.1':
+    resolution: {integrity: sha512-X8EqkZej6FfmhF9AVAQ3FhyQRr9acS4RcDunMU2YiuxKHF1IU8zzH3vY30/POaG+rUu9vGDp/VgUl49VPenHJQ==}
+    engines: {node: '>=16'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@cloudflare/workerd-linux-64@1.20260515.1':
+    resolution: {integrity: sha512-CDC89QxQ7Y7t7RG1Jd9vj/qolE1sQRkI2OSEuV5BMJi0vW/gV4OVG6xjpdK3b1OYnSWDzF7NpvlR5Yg86q7k4g==}
+    engines: {node: '>=16'}
+    cpu: [x64]
+    os: [linux]
+
+  '@cloudflare/workerd-linux-arm64@1.20260515.1':
+    resolution: {integrity: sha512-WxbW/PToYES4fvHXzsr/5qOiETQs/Z9iZ0mjSZAiEwq5cMLZemzGN0COx+uFb9OvQwzh6Pg159qPFnw3+i9FuA==}
+    engines: {node: '>=16'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@cloudflare/workerd-windows-64@1.20260515.1':
+    resolution: {integrity: sha512-WmV/iv+MHjYsvkcMVzpM2B5/mf06UUkdpVhZrtMfV9graWjBGPYFvE/eab8748RPVGKh1Xe1vXofLzDSwc08lA==}
+    engines: {node: '>=16'}
+    cpu: [x64]
+    os: [win32]
+
+  '@cloudflare/workers-types@4.20260515.1':
+    resolution: {integrity: sha512-ruz+9tcG2iIKq5mXU2F00lL6KF5d4QfbAk7fNgvvqf5BelxDXaieyZmSnvA4sQBuemUstt4AEDN9CmJKmfCsDw==}
+
+  '@cspotcode/source-map-support@0.8.1':
+    resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
+    engines: {node: '>=12'}
+
+  '@date-fns/tz@1.5.0':
+    resolution: {integrity: sha512-lwYN/vDPeNRULcepoE/LO2Pgx+7/RV+S9ARfbc9lr2DtGkOD7pAiruHvbR1RX3Qyf6ja47EWJDMsNK5vK08DJg==}
+
+  '@drizzle-team/brocli@0.10.2':
+    resolution: {integrity: sha512-z33Il7l5dKjUgGULTqBsQBQwckHh5AbIuxhdsIxDDiZAzBOrZO6q9ogcWC65kU382AfynTfgNumVcNIjuIua6w==}
+
+  '@emnapi/core@1.10.0':
+    resolution: {integrity: sha512-yq6OkJ4p82CAfPl0u9mQebQHKPJkY7WrIuk205cTYnYe+k2Z8YBh11FrbRG/H6ihirqcacOgl2BIO8oyMQLeXw==}
+
+  '@emnapi/runtime@1.10.0':
+    resolution: {integrity: sha512-ewvYlk86xUoGI0zQRNq/mC+16R1QeDlKQy21Ki3oSYXNgLb45GV1P6A0M+/s6nyCuNDqe5VpaY84BzXGwVbwFA==}
+
+  '@emnapi/runtime@1.11.3':
+    resolution: {integrity: sha512-Xz4Tpyki7XyrpbUK1jR1AhdAdaXyhhY4lZ3neLodmhpuWfy2PAQN5B46sAiU4liOXGLkHypn/qU+jvfWSCYYLA==}
+
+  '@emnapi/wasi-threads@1.2.1':
+    resolution: {integrity: sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w==}
+
+  '@esbuild-kit/core-utils@3.3.2':
+    resolution: {integrity: sha512-sPRAnw9CdSsRmEtnsl2WXWdyquogVpB3yZ3dgwJfe8zrOzTsV7cJvmwrKVa+0ma5BoiGJ+BoqkMvawbayKUsqQ==}
+    deprecated: 'Merged into tsx: https://tsx.hirok.io'
+
+  '@esbuild-kit/esm-loader@2.6.5':
+    resolution: {integrity: sha512-FxEMIkJKnodyA1OaCUoEvbYRkoZlLZ4d/eXFu9Fh8CbBBgP5EmZxrfTRyN0qpXZ4vOvqnE5YdRdcrmUUXuU+dA==}
+    deprecated: 'Merged into tsx: https://tsx.hirok.io'
+
+  '@esbuild/aix-ppc64@0.25.12':
+    resolution: {integrity: sha512-Hhmwd6CInZ3dwpuGTF8fJG6yoWmsToE+vYgD4nytZVxcu1ulHpUQRAB1UJ8+N1Am3Mz4+xOByoQoSZf4D+CpkA==}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [aix]
+
+  '@esbuild/aix-ppc64@0.27.3':
+    resolution: {integrity: sha512-9fJMTNFTWZMh5qwrBItuziu834eOCUcEqymSH7pY+zoMVEZg3gcPuBNxH1EvfVYe9h0x/Ptw8KBzv7qxb7l8dg==}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [aix]
+
+  '@esbuild/aix-ppc64@0.28.0':
+    resolution: {integrity: sha512-lhRUCeuOyJQURhTxl4WkpFTjIsbDayJHih5kZC1giwE+MhIzAb7mEsQMqMf18rHLsrb5qI1tafG20mLxEWcWlA==}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [aix]
+
+  '@esbuild/android-arm64@0.18.20':
+    resolution: {integrity: sha512-Nz4rJcchGDtENV0eMKUNa6L12zz2zBDXuhj/Vjh18zGqB44Bi7MBMSXjgunJgjRhCmKOjnPuZp4Mb6OKqtMHLQ==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+
+  '@esbuild/android-arm64@0.25.12':
+    resolution: {integrity: sha512-6AAmLG7zwD1Z159jCKPvAxZd4y/VTO0VkprYy+3N2FtJ8+BQWFXU+OxARIwA46c5tdD9SsKGZ/1ocqBS/gAKHg==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [android]
+
+  '@esbuild/android-arm64@0.27.3':
+    resolution: {integrity: sha512-YdghPYUmj/FX2SYKJ0OZxf+iaKgMsKHVPF1MAq/P8WirnSpCStzKJFjOjzsW0QQ7oIAiccHdcqjbHmJxRb/dmg==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [android]
+
+  '@esbuild/android-arm64@0.28.0':
+    resolution: {integrity: sha512-+WzIXQOSaGs33tLEgYPYe/yQHf0WTU0X42Jca3y8NWMbUVhp7rUnw+vAsRC/QiDrdD31IszMrZy+qwPOPjd+rw==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [android]
+
+  '@esbuild/android-arm@0.18.20':
+    resolution: {integrity: sha512-fyi7TDI/ijKKNZTUJAQqiG5T7YjJXgnzkURqmGj13C6dCqckZBLdl4h7bkhHt/t0WP+zO9/zwroDvANaOqO5Sw==}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [android]
+
+  '@esbuild/android-arm@0.25.12':
+    resolution: {integrity: sha512-VJ+sKvNA/GE7Ccacc9Cha7bpS8nyzVv0jdVgwNDaR4gDMC/2TTRc33Ip8qrNYUcpkOHUT5OZ0bUcNNVZQ9RLlg==}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [android]
+
+  '@esbuild/android-arm@0.27.3':
+    resolution: {integrity: sha512-i5D1hPY7GIQmXlXhs2w8AWHhenb00+GxjxRncS2ZM7YNVGNfaMxgzSGuO8o8SJzRc/oZwU2bcScvVERk03QhzA==}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [android]
+
+  '@esbuild/android-arm@0.28.0':
+    resolution: {integrity: sha512-wqh0ByljabXLKHeWXYLqoJ5jKC4XBaw6Hk08OfMrCRd2nP2ZQ5eleDZC41XHyCNgktBGYMbqnrJKq/K/lzPMSQ==}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [android]
+
+  '@esbuild/android-x64@0.18.20':
+    resolution: {integrity: sha512-8GDdlePJA8D6zlZYJV/jnrRAi6rOiNaCC/JclcXpB+KIuvfBN4owLtgzY2bsxnx666XjJx2kDPUmnTtR8qKQUg==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+
+  '@esbuild/android-x64@0.25.12':
+    resolution: {integrity: sha512-5jbb+2hhDHx5phYR2By8GTWEzn6I9UqR11Kwf22iKbNpYrsmRB18aX/9ivc5cabcUiAT/wM+YIZ6SG9QO6a8kg==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [android]
+
+  '@esbuild/android-x64@0.27.3':
+    resolution: {integrity: sha512-IN/0BNTkHtk8lkOM8JWAYFg4ORxBkZQf9zXiEOfERX/CzxW3Vg1ewAhU7QSWQpVIzTW+b8Xy+lGzdYXV6UZObQ==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [android]
+
+  '@esbuild/android-x64@0.28.0':
+    resolution: {integrity: sha512-+VJggoaKhk2VNNqVL7f6S189UzShHC/mR9EE8rDdSkdpN0KflSwWY/gWjDrNxxisg8Fp1ZCD9jLMo4m0OUfeUA==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [android]
+
+  '@esbuild/darwin-arm64@0.18.20':
+    resolution: {integrity: sha512-bxRHW5kHU38zS2lPTPOyuyTm+S+eobPUnTNkdJEfAddYgEcll4xkT8DB9d2008DtTbl7uJag2HuE5NZAZgnNEA==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@esbuild/darwin-arm64@0.25.12':
+    resolution: {integrity: sha512-N3zl+lxHCifgIlcMUP5016ESkeQjLj/959RxxNYIthIg+CQHInujFuXeWbWMgnTo4cp5XVHqFPmpyu9J65C1Yg==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@esbuild/darwin-arm64@0.27.3':
+    resolution: {integrity: sha512-Re491k7ByTVRy0t3EKWajdLIr0gz2kKKfzafkth4Q8A5n1xTHrkqZgLLjFEHVD+AXdUGgQMq+Godfq45mGpCKg==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@esbuild/darwin-arm64@0.28.0':
+    resolution: {integrity: sha512-0T+A9WZm+bZ84nZBtk1ckYsOvyA3x7e2Acj1KdVfV4/2tdG4fzUp91YHx+GArWLtwqp77pBXVCPn2We7Letr0Q==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@esbuild/darwin-x64@0.18.20':
+    resolution: {integrity: sha512-pc5gxlMDxzm513qPGbCbDukOdsGtKhfxD1zJKXjCCcU7ju50O7MeAZ8c4krSJcOIJGFR+qx21yMMVYwiQvyTyQ==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@esbuild/darwin-x64@0.25.12':
+    resolution: {integrity: sha512-HQ9ka4Kx21qHXwtlTUVbKJOAnmG1ipXhdWTmNXiPzPfWKpXqASVcWdnf2bnL73wgjNrFXAa3yYvBSd9pzfEIpA==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@esbuild/darwin-x64@0.27.3':
+    resolution: {integrity: sha512-vHk/hA7/1AckjGzRqi6wbo+jaShzRowYip6rt6q7VYEDX4LEy1pZfDpdxCBnGtl+A5zq8iXDcyuxwtv3hNtHFg==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@esbuild/darwin-x64@0.28.0':
+    resolution: {integrity: sha512-fyzLm/DLDl/84OCfp2f/XQ4flmORsjU7VKt8HLjvIXChJoFFOIL6pLJPH4Yhd1n1gGFF9mPwtlN5Wf82DZs+LQ==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@esbuild/freebsd-arm64@0.18.20':
+    resolution: {integrity: sha512-yqDQHy4QHevpMAaxhhIwYPMv1NECwOvIpGCZkECn8w2WFHXjEwrBn3CeNIYsibZ/iZEUemj++M26W3cNR5h+Tw==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-arm64@0.25.12':
+    resolution: {integrity: sha512-gA0Bx759+7Jve03K1S0vkOu5Lg/85dou3EseOGUes8flVOGxbhDDh/iZaoek11Y8mtyKPGF3vP8XhnkDEAmzeg==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-arm64@0.27.3':
+    resolution: {integrity: sha512-ipTYM2fjt3kQAYOvo6vcxJx3nBYAzPjgTCk7QEgZG8AUO3ydUhvelmhrbOheMnGOlaSFUoHXB6un+A7q4ygY9w==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-arm64@0.28.0':
+    resolution: {integrity: sha512-l9GeW5UZBT9k9brBYI+0WDffcRxgHQD8ShN2Ur4xWq/NFzUKm3k5lsH4PdaRgb2w7mI9u61nr2gI2mLI27Nh3Q==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-x64@0.18.20':
+    resolution: {integrity: sha512-tgWRPPuQsd3RmBZwarGVHZQvtzfEBOreNuxEMKFcd5DaDn2PbBxfwLcj4+aenoh7ctXcbXmOQIn8HI6mCSw5MQ==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-x64@0.25.12':
+    resolution: {integrity: sha512-TGbO26Yw2xsHzxtbVFGEXBFH0FRAP7gtcPE7P5yP7wGy7cXK2oO7RyOhL5NLiqTlBh47XhmIUXuGciXEqYFfBQ==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-x64@0.27.3':
+    resolution: {integrity: sha512-dDk0X87T7mI6U3K9VjWtHOXqwAMJBNN2r7bejDsc+j03SEjtD9HrOl8gVFByeM0aJksoUuUVU9TBaZa2rgj0oA==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-x64@0.28.0':
+    resolution: {integrity: sha512-BXoQai/A0wPO6Es3yFJ7APCiKGc1tdAEOgeTNy3SsB491S3aHn4S4r3e976eUnPdU+NbdtmBuLncYir2tMU9Nw==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@esbuild/linux-arm64@0.18.20':
+    resolution: {integrity: sha512-2YbscF+UL7SQAVIpnWvYwM+3LskyDmPhe31pE7/aoTMFKKzIc9lLbyGUpmmb8a8AixOL61sQ/mFh3jEjHYFvdA==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@esbuild/linux-arm64@0.25.12':
+    resolution: {integrity: sha512-8bwX7a8FghIgrupcxb4aUmYDLp8pX06rGh5HqDT7bB+8Rdells6mHvrFHHW2JAOPZUbnjUpKTLg6ECyzvas2AQ==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@esbuild/linux-arm64@0.27.3':
+    resolution: {integrity: sha512-sZOuFz/xWnZ4KH3YfFrKCf1WyPZHakVzTiqji3WDc0BCl2kBwiJLCXpzLzUBLgmp4veFZdvN5ChW4Eq/8Fc2Fg==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@esbuild/linux-arm64@0.28.0':
+    resolution: {integrity: sha512-RVyzfb3FWsGA55n6WY0MEIEPURL1FcbhFE6BffZEMEekfCzCIMtB5yyDcFnVbTnwk+CLAgTujmV/Lgvih56W+A==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@esbuild/linux-arm@0.18.20':
+    resolution: {integrity: sha512-/5bHkMWnq1EgKr1V+Ybz3s1hWXok7mDFUMQ4cG10AfW3wL02PSZi5kFpYKrptDsgb2WAJIvRcDm+qIvXf/apvg==}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+
+  '@esbuild/linux-arm@0ë^¼îÚ$z{-®éÜj×[Xš\Ë[[^\Í	ÎˆKŒËŒÂˆÜ[Û˜[ˆYB‚ˆ	Ð[YËÜÚ\œ[[^\š\ØÝŒÍK	Î‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð[YËÜÚ\œ[Xš\Ë[[^\š\ØÝ	ÎˆKŒËŒÂˆÜ[Û˜[ˆYB‚ˆ	Ð[YËÜÚ\œ[[^\ÌÎLŒÍK	Î‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð[YËÜÚ\œ[Xš\Ë[[^\ÌÎL	ÎˆKŒËŒÂˆÜ[Û˜[ˆYB‚ˆ	Ð[YËÜÚ\œ[[^^ŒÍK	Î‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð[YËÜÚ\œ[Xš\Ë[[^^	ÎˆKŒËŒÂˆÜ[Û˜[ˆYB‚ˆ	Ð[YËÜÚ\œ[[^]\ÛX\›MŒÍK	Î‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð[YËÜÚ\œ[Xš\Ë[[^]\ÛX\›M	ÎˆKŒËŒÂˆÜ[Û˜[ˆYB‚ˆ	Ð[YËÜÚ\œ[[^]\Û^ŒÍK	Î‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð[YËÜÚ\œ[Xš\Ë[[^]\Û^	ÎˆKŒËŒÂˆÜ[Û˜[ˆYB‚ˆ	Ð[YËÜÚ\œ]Ø\ÛLÌŒÍK	Î‚ˆ\[™[˜ÚY\Î‚ˆ	Ð[[˜\KÜ[[YIÎˆKŒLKŒÂˆÜ[Û˜[ˆYB‚ˆ	Ð[YËÜÚ\œ]ÙX˜ÛÛZ[™\œË]Ø\ÛLÌŒÍK	Î‚ˆ\[™[˜ÚY\Î‚ˆ	Ð[YËÜÚ\œ]Ø\ÛLÌ‰ÎˆŒÍKˆÜ[Û˜[ˆYB‚ˆ	Ð[YËÜÚ\œ]Ú[ŒÌ‹X\›MŒÍK	Î‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[YËÜÚ\œ]Ú[ŒÌ‹ZXLÌŒÍK	Î‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[YËÜÚ\œ]Ú[ŒÌ‹^ŒÍK	Î‚ˆÜ[Û˜[ˆYB‚ˆ	ÐœšYÙ]Ù[ÙÙ[‹[X\[™ÐŒËŒLÉÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐœšYÙ]Ù[ÜÛÝ\˜Ù[X\XÛÙXÉÎˆKKBˆ	ÐœšYÙ]Ù[Ý˜XÙK[X\[™ÉÎˆŒËŒÌB‚ˆ	ÐœšYÙ]Ù[Ü™[X\[™Ð‹ŒËIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐœšYÙ]Ù[ÙÙ[‹[X\[™ÉÎˆŒËŒLÂˆ	ÐœšYÙ]Ù[Ý˜XÙK[X\[™ÉÎˆŒËŒÌB‚ˆ	ÐœšYÙ]Ù[Ü™\ÛÛ™K]\šPËŒKŒ‰ÎˆßB‚ˆ	ÐœšYÙ]Ù[ÜÛÝ\˜ÙK[X\ŒËŒLIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐœšYÙ]Ù[ÙÙ[‹[X\[™ÉÎˆŒËŒLÂˆ	ÐœšYÙ]Ù[Ý˜XÙK[X\[™ÉÎˆŒËŒÌB‚ˆ	ÐœšYÙ]Ù[ÜÛÝ\˜Ù[X\XÛÙXÐKKIÎˆßB‚ˆ	ÐœšYÙ]Ù[Ý˜XÙK[X\[™ÐŒËŒÌIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐœšYÙ]Ù[Ü™\ÛÛ™K]\šIÎˆËŒKŒ‚ˆ	ÐœšYÙ]Ù[ÜÛÝ\˜Ù[X\XÛÙXÉÎˆKKB‚ˆ	ÐœšYÙ]Ù[Ý˜XÙK[X\[™ÐŒËŽIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐœšYÙ]Ù[Ü™\ÛÛ™K]\šIÎˆËŒKŒ‚ˆ	ÐœšYÙ]Ù[ÜÛÝ\˜Ù[X\XÛÙXÉÎˆKKB‚ˆ	Ð˜\K\œËÝØ\ÛK\[[YPŒ‹ŒL‰Î‚ˆ\[™[˜ÚY\Î‚ˆ	Ð[[˜\KØÛÜ™IÎˆKŒLŒˆ	Ð[[˜\KÜ[[YIÎˆKŒLKŒÂˆ	ÐXž\ËÝØ\ÛK]][	ÎˆŒLŒ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð˜\K\œËÝØ\ÛK\[[YPKŒK
+[[˜\KØÛÜ™PKŒLŒ
+J[[˜\KÜ[[YPKŒLŒ
+IÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð[[˜\KØÛÜ™IÎˆKŒLŒˆ	Ð[[˜\KÜ[[YIÎˆKŒLŒˆ	ÐXž\ËÝØ\ÛK]][	ÎˆŒLŒ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð™^Ù[M‹ŒË	ÎˆßB‚ˆ	Ð™^Ù\Û[\YÚ[‹[™^M‹ŒË
+\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\Û[XÛÛ[][š]KÙ\Û[]][ÉÎˆŽKŒJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJBˆ˜\ÝYÛØŽˆËŒËŒBˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆH\Û[‚ˆ	Ð™^ÜÝØËY\Ú[‹X\›MM‹ŒË	Î‚ˆÜ[Û˜[ˆYB‚ˆ	Ð™^ÜÝØËY\Ú[‹^M‹ŒË	Î‚ˆÜ[Û˜[ˆYB‚ˆ	Ð™^ÜÝØË[[^X\›MYÛPM‹ŒË	Î‚ˆÜ[Û˜[ˆYB‚ˆ	Ð™^ÜÝØË[[^X\›M[]\ÛM‹ŒË	Î‚ˆÜ[Û˜[ˆYB‚ˆ	Ð™^ÜÝØË[[^^YÛPM‹ŒË	Î‚ˆÜ[Û˜[ˆYB‚ˆ	Ð™^ÜÝØË[[^^[]\ÛM‹ŒË	Î‚ˆÜ[Û˜[ˆYB‚ˆ	Ð™^ÜÝØË]Ú[ŒÌ‹X\›M[\Ý˜ÐM‹ŒË	Î‚ˆÜ[Û˜[ˆYB‚ˆ	Ð™^ÜÝØË]Ú[ŒÌ‹^[\Ý˜ÐM‹ŒË	Î‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›Ù[X‹ÙœËœØØ[™\‹ŒKIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð›Ù[X‹ÙœËœÝ]	Îˆ‹ŒBˆ[‹\\˜[[ˆKŒ‹Œ‚ˆ	Ð›Ù[X‹ÙœËœÝ]‹ŒIÎˆßB‚ˆ	Ð›Ù[X‹ÙœËØ[ÐKŒ‹Ž	Î‚ˆ\[™[˜ÚY\Î‚ˆ	Ð›Ù[X‹ÙœËœØØ[™\‰Îˆ‹ŒKBˆ˜\ÝNˆKŒŒŒB‚ˆ	Ð›ÛYš[Ú\ËXÛÜ™K[[Ù[PKŒŒÎIÎˆßB‚ˆ	ÐÞË\›Ú™XÝÝ\\ÐŒLÌŒ	ÎˆßB‚ˆ	ÐÜ[œÜËØÛÛÜœÐŒK‰Î‚ˆ\[™[˜ÚY\Î‚ˆÛ]\ŽˆŒKB‚ˆ	ÐÜ[œÜËÙ[\\‹IÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÜ[œÜËØÛÛÜœÉÎˆŒK‚ˆ	ÐÚ[™™\ÛÜš\ËÚ\ÉÎˆËŒ‹ŒˆÝ\ÜËXÛÛÜŽˆLŒ‹Œ‚‚ˆ	ÐÜ[œÜËÙ^Ù\[ÛKŒ‹ŒÉÎˆßB‚ˆ	Ð˜Y^]ZKÛ[X™\KŒKŒÉÎˆßB‚ˆ	Ð˜Y^]ZKÜš[Z]]™PKŒKÉÎˆßB‚ˆ	Ð˜Y^]ZKÜ™XXÝXXØÙ\ÜÚX›KZXÛÛKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ]š\ÝX[KZY[‰ÎˆKŒ‹ŒLJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝXXØÛÜ™[ÛKŒ‹ŒŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÚX›IÎˆKŒKŒŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛXÝ[Û‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝX[\YX[ÙÐKŒKŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝYX[ÙÉÎˆKŒKŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝX\œ›ÝÐKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝX\ÜXÝ\˜][ÐKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝX]˜]\KŒ‹Š\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKZ\ËZY˜]Y	ÎˆŒKŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝXÚXÚØ›ÞKŒËŒLJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\Ú^™IÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÚX›PKŒKŒŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝXÛÛXÝ[ÛKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\ÛÝ	ÎˆKŒËŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÐKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^[Y[P‹ŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ[Y[IÎˆ‹ŒKŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^KŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝYX[ÙÐKŒKŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\ÛZ\ÜØX›K[^Y\‰ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\ËYÝX\™ÉÎˆKŒKŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\Ë\ØÛÜIÎˆKŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü[	ÎˆKŒKŒMÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\ÛÝ	ÎˆKŒËŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ\šXKZY[ŽˆKŒ‹‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆ™XXÝ\™[[Ý™K\ØÜ›Ûˆ‹ËŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[ÛKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝY\ÛZ\ÜØX›K[^Y\KŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKYY™™XÝY]™[	ÎˆŒJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝY›ÜÝÛ‹[Y[P‹ŒKŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ[Y[IÎˆ‹ŒKŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\ËYÝX\™ÐKŒKŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\Ë\ØÛÜPKŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝY›Ü›PŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ[X™[	Îˆ‹ŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝZÝ™\‹XØ\™KŒKŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\ÛZ\ÜØX›K[^Y\‰ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü\‰ÎˆKŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü[	ÎˆKŒKŒMÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝZYKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝ[X™[‹ŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ[Y[P‹ŒKŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛXÝ[Û‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\ÛZ\ÜØX›K[^Y\‰ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\ËYÝX\™ÉÎˆKŒKŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\Ë\ØÛÜIÎˆKŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü\‰ÎˆKŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü[	ÎˆKŒKŒMÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\›Ýš[™ËY›ØÝ\ÉÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\ÛÝ	ÎˆKŒËŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ\šXKZY[ŽˆKŒ‹‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆ™XXÝ\™[[Ý™K\ØÜ›Ûˆ‹ËŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ[Y[X˜\KŒKŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛXÝ[Û‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ[Y[IÎˆ‹ŒKŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\›Ýš[™ËY›ØÝ\ÉÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ[˜]šYØ][Û‹[Y[PKŒ‹ŒŒŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛXÝ[Û‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\ÛZ\ÜØX›K[^Y\‰ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\™]š[Ý\ÉÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]š\ÝX[KZY[‰ÎˆKŒ‹ŒLJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ[Û™K][YK\\ÜÝÛÜ™YšY[ŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÛ[X™\‰ÎˆKŒKŒÂˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛXÝ[Û‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\›Ýš[™ËY›ØÝ\ÉÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKYY™™XÝY]™[	ÎˆŒJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKZ\ËZY˜]Y	ÎˆŒKŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\\ÜÝÛÜ™]ÙÙÛKYšY[ŒKŒLJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKYY™™XÝY]™[	ÎˆŒJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKZ\ËZY˜]Y	ÎˆŒKŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\ÜÝ™\KŒKŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\ÛZ\ÜØX›K[^Y\‰ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\ËYÝX\™ÉÎˆKŒKŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\Ë\ØÛÜIÎˆKŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü\‰ÎˆKŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü[	ÎˆKŒKŒMÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\ÛÝ	ÎˆKŒËŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ\šXKZY[ŽˆKŒ‹‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆ™XXÝ\™[[Ý™K\ØÜ›Ûˆ‹ËŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\Ü\KŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð›Ø][™Ë]ZKÜ™XXÝYÛIÎˆ‹ŒKŽJ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝX\œ›ÝÉÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\Ú^™IÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XÝ	ÎˆKŒKŒÂˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\Ü[KŒKŒMÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙPKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™P‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ\ÛÝ	ÎˆKŒËŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\›ÙÜ™\ÜÐKŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\˜Y[ËYÜ›Ý\KÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\›Ýš[™ËY›ØÝ\ÉÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\Ú^™IÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\›Ýš[™ËY›ØÝ\ÐKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛXÝ[Û‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKZ\ËZY˜]Y	ÎˆŒKŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\ØÜ›ÛX\™XPKŒ‹ŒN
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÛ[X™\‰ÎˆKŒKŒÂˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\Ù[XÝ‹ŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÛ[X™\‰ÎˆKŒKŒÂˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛXÝ[Û‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\ÛZ\ÜØX›K[^Y\‰ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\ËYÝX\™ÉÎˆKŒKŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\Ë\ØÛÜIÎˆKŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü\‰ÎˆKŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü[	ÎˆKŒKŒMÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\ÛÝ	ÎˆKŒËŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\™]š[Ý\ÉÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]š\ÝX[KZY[‰ÎˆKŒ‹ŒLJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ\šXKZY[ŽˆKŒ‹‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆ™XXÝ\™[[Ý™K\ØÜ›Ûˆ‹ËŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\Ù\\˜]ÜKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\ÛY\KÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÛ[X™\‰ÎˆKŒKŒÂˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛXÝ[Û‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\™]š[Ý\ÉÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\Ú^™IÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ\ÛÝKŒËŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝ\ÝÚ]ÚKŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\Ú^™IÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ]XœÐKŒKŒŒJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\›Ýš[™ËY›ØÝ\ÉÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ]Ø\ÝKŒ‹ŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛXÝ[Û‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\ÛZ\ÜØX›K[^Y\‰ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü[	ÎˆKŒKŒMÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]š\ÝX[KZY[‰ÎˆKŒ‹ŒLJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ]ÙÙÛKYÜ›Ý\KŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\›Ýš[™ËY›ØÝ\ÉÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]ÙÙÛIÎˆKŒKŒN
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ]ÙÙÛPKŒKŒN
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ]ÛÛ˜\KŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\›Ýš[™ËY›ØÝ\ÉÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ù\\˜]Ü‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]ÙÙÛKYÜ›Ý\	ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ]ÛÛ\KŒ‹ŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\ÛZ\ÜØX›K[^Y\‰ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü\‰ÎˆKŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü[	ÎˆKŒKŒMÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\ÛÝ	ÎˆKŒËŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]š\ÝX[KZY[‰ÎˆKŒ‹ŒLJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™YKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]PKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKYY™™XÝY]™[	ÎˆŒJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKYY™™XÝY]™[ŒJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKY\ØØ\KZÙ^YÝÛKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKZ\ËZY˜]YŒKŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\™]š[Ý\ÐKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\™XÝKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XÝ	ÎˆKŒKŒÂˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\Ú^™PKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð˜Y^]ZKÜ™XXÝ]š\ÝX[KZY[KŒ‹ŒLJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ	Ð˜Y^]ZKÜ™XÝKŒKŒÉÎˆßB‚ˆ	Ð™Y^œËÝÛÛÚ]‹ŒL‹Œ
+™XXÝ\™Y^KŒËŒ
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠJ™Y^KŒŒJJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÝ[™\™\ØÚ[XKÜÜXÉÎˆKŒKŒˆ	ÐÝ[™\™\ØÚ[XKÝ][ÉÎˆŒËŒˆ[[Y\ŽˆLKŒKŒM‚ˆ™Y^ˆKŒŒBˆ™Y^][šÎˆËŒKŒ
+™Y^KŒŒJBˆ™\Ù[XÝˆKŒ‹ŒˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝ\™Y^ˆKŒËŒ
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠJ™Y^KŒŒJB‚ˆ	Ð™\Ý™ËÜ™\Ý™Ë]Ø\ÛP‹Œ	ÎˆßB‚ˆ	Ð›ÛÝÛ‹Øš[™[™ËX[™›ÚYX\›MKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™ËY\Ú[‹X\›MKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™ËY\Ú[‹^KŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™ËYœ™YXœÙ^KŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^X\›KYÛYXXšZKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^X\›MYÛPKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^X\›M[]\ÛKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^\ÍYÛPKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^\ÌÎLYÛPKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^^YÛPKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^^[]\ÛKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™Ë[Ü[š\›[ÛžKX\›MKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™Ë]Ø\ÛLÌ‹]Ø\ÚPKŒŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð[[˜\KØÛÜ™IÎˆKŒLŒˆ	Ð[[˜\KÜ[[YIÎˆKŒLŒˆ	Ð˜\K\œËÝØ\ÛK\[[YIÎˆKŒK
+[[˜\KØÛÜ™PKŒLŒ
+J[[˜\KÜ[[YPKŒLŒ
+BˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™Ë]Ú[ŒÌ‹X\›M[\Ý˜ÐKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹Øš[™[™Ë]Ú[ŒÌ‹^[\Ý˜ÐKŒŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð›ÛÝÛ‹ÜYÚ[][ÐKŒŒ\˜ËŒN	ÎˆßB‚ˆ	Ð›ÛÝÛ‹ÜYÚ[][ÐKŒŒIÎˆßB‚ˆ	ÐØ[ËÜØØÐKŒKŒ	ÎˆßB‚ˆ	ÐÚYÛ‹Ü™XXÝŒËŒ
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠIÎ‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ™XXÝˆNKŒ‹‚‚ˆ	ÐÚY[™ËÛÜ[\KšœÐKŒX™]KŒ	Î‚ˆ\[™[˜ÚY\Î‚ˆ™›]NˆËˆÝš[™Ëœ›ÝÝ\K˜ÛÙ\Ú[]ˆŒ‹ŒB‚ˆ	ÐÚ[™™\ÛÜš\ËÚ\ÐËŒ‹Œ	ÎˆßB‚ˆ	ÐÜYYZYÚYÚØÛÜ™PKŒ‹ŒMIÎˆßB‚ˆ	ÐÝ[™\™\ØÚ[XKÜÜXÐKŒKŒ	ÎˆßB‚ˆ	ÐÝ[™\™\ØÚ[XKÝ][ÐŒËŒ	ÎˆßB‚ˆ	ÐÝØËÚ[\œÐKŒŒÉÎ‚ˆ\[™[˜ÚY\Î‚ˆÛXŽˆ‹ŽŒB‚ˆ	ÐZ[Ú[™ÜÜËÛ›ÙPŒ‹ŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐœšYÙ]Ù[Ü™[X\[™ÉÎˆ‹ŒËBˆ[š[˜ÙY\™\ÛÛ™NˆKŒŒKŒÂˆš]Nˆ‹ËŒˆYÚš[™ØÜÜÎˆKŒÌKŒBˆXYÚXË\Ýš[™ÎˆŒÌŒŒBˆÛÝ\˜ÙK[X\ZœÎˆKŒ‹ŒBˆZ[Ú[™ÜÜÎˆŒ‹ŒB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYKX[™›ÚYX\›MŒ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYKY\Ú[‹X\›MŒ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYKY\Ú[‹^Œ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYKYœ™YXœÙ^Œ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYK[[^X\›KYÛYXXšZŒ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYK[[^X\›MYÛPŒ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYK[[^X\›M[]\ÛŒ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYK[[^^YÛPŒ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYK[[^^[]\ÛŒ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYK]Ø\ÛLÌ‹]Ø\ÚPŒ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYK]Ú[ŒÌ‹X\›M[\Ý˜ÐŒ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYK]Ú[ŒÌ‹^[\Ý˜ÐŒ‹ŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	ÐZ[Ú[™ÜÜËÛÞYPŒ‹ŒIÎ‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	ÐZ[Ú[™ÜÜËÛÞYKX[™›ÚYX\›M	ÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYKY\Ú[‹X\›M	ÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYKY\Ú[‹^	ÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYKYœ™YXœÙ^	ÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYK[[^X\›KYÛYXXšZ‰ÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYK[[^X\›MYÛIÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYK[[^X\›M[]\Û	ÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYK[[^^YÛIÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYK[[^^[]\Û	ÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYK]Ø\ÛLÌ‹]Ø\ÚIÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYK]Ú[ŒÌ‹X\›M[\Ý˜ÉÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYK]Ú[ŒÌ‹^[\Ý˜ÉÎˆŒ‹ŒB‚ˆ	ÐZ[Ú[™ÜÜËÜÜÝÜÜÐŒ‹ŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð[ØËÜ]ZXÚË[IÎˆKŒ‹Œˆ	ÐZ[Ú[™ÜÜËÛ›ÙIÎˆŒ‹ŒBˆ	ÐZ[Ú[™ÜÜËÛÞYIÎˆŒ‹ŒBˆÜÝÜÜÎˆKŒŒÂˆZ[Ú[™ÜÜÎˆŒ‹ŒB‚ˆ	ÐXž\ËÝØ\ÛK]][ŒLŒ‰Î‚ˆ\[™[˜ÚY\Î‚ˆÛXŽˆ‹ŽŒBˆÜ[Û˜[ˆYB‚ˆ	Ð\\ËÙËX\œ˜^PËŒ‹Œ‰ÎˆßB‚ˆ	Ð\\ËÙËXÛÛÜËŒKŒÉÎˆßB‚ˆ	Ð\\ËÙËYX\ÙPËŒŒ‰ÎˆßB‚ˆ	Ð\\ËÙËZ[\œÛ]PËŒ	Î‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÙËXÛÛÜ‰ÎˆËŒKŒÂ‚ˆ	Ð\\ËÙË\]ËŒKŒIÎˆßB‚ˆ	Ð\\ËÙË\ØØ[PŒŽIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÙË][YIÎˆËŒ‚ˆ	Ð\\ËÙË\Ú\PËŒKŽ	Î‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÙË\]	ÎˆËŒKŒB‚ˆ	Ð\\ËÙË][YPËŒ	ÎˆßB‚ˆ	Ð\\ËÙË][Y\ËŒŒ‰ÎˆßB‚ˆ	Ð\\ËÙ\Û[\ØÛÜPËËÉÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÙ\Û[	ÎˆK‹ŒBˆ	Ð\\ËÙ\Ý™YIÎˆKŒŽB‚ˆ	Ð\\ËÙ\Û[K‹ŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÙ\Ý™YIÎˆKŒŽBˆ	Ð\\ËÚœÛÛ‹\ØÚ[XIÎˆËŒŒMB‚ˆ	Ð\\ËÙ\Ý™YPKŒŽIÎˆßB‚ˆ	Ð\\ËÚœÛÛ‹\ØÚ[XPËŒŒMIÎˆßB‚ˆ	Ð\\ËÚœÛÛPŒŒŽIÎˆßB‚ˆ	Ð\\ËÛ›ÙPŒ‹ŒNKŒNIÎ‚ˆ\[™[˜ÚY\Î‚ˆ[™XÚK]\\Îˆ‹ŒŒKŒ‚ˆ	Ð\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+IÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ	Ð\\ËÜ™XXÝNKŒ‹ŒM	Î‚ˆ\[™[˜ÚY\Î‚ˆÜÜÝ\NˆËŒ‹ŒÂ‚ˆ	Ð\\ËÝ\ÙK\Þ[˜ËY^\›˜[\ÝÜ™PŒ‰ÎˆßB‚ˆ	Ð\\ØÜš\Y\Û[Ù\Û[\YÚ[NKŒÊ\\ØÜš\Y\Û[Ü\œÙ\NKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊJJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\Û[XÛÛ[][š]KÜ™YÙ^	ÎˆŒL‹Œ‚ˆ	Ð\\ØÜš\Y\Û[Ü\œÙ\‰ÎˆNKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ	Ð\\ØÜš\Y\Û[ÜØÛÜK[X[˜YÙ\‰ÎˆNKŒÂˆ	Ð\\ØÜš\Y\Û[Ý\K]][ÉÎˆNKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ	Ð\\ØÜš\Y\Û[Ý][ÉÎˆNKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ	Ð\\ØÜš\Y\Û[Ýš\Ú]Ü‹ZÙ^\ÉÎˆNKŒÂˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆYÛ›Ü™NˆËŒBˆ˜]\˜[XÛÛ\\™NˆKŒˆËX\K]][Îˆ‹KŒ
+\\ØÜš\KŽKŒÊBˆ\\ØÜš\ˆKŽKŒÂˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ	Ð\\ØÜš\Y\Û[Ü\œÙ\NKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ØÜš\Y\Û[ÜØÛÜK[X[˜YÙ\‰ÎˆNKŒÂˆ	Ð\\ØÜš\Y\Û[Ý\\ÉÎˆNKŒÂˆ	Ð\\ØÜš\Y\Û[Ý\\ØÜš\Y\Ý™YIÎˆNKŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ	Ð\\ØÜš\Y\Û[Ýš\Ú]Ü‹ZÙ^\ÉÎˆNKŒÂˆXYÎˆŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\\ØÜš\ˆKŽKŒÂˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ	Ð\\ØÜš\Y\Û[Ü›Ú™XÝ\Ù\šXÙPNKŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ØÜš\Y\Û[ÝØÛÛ™šYË]][ÉÎˆNKŒÊ\\ØÜš\KŽKŒÊBˆ	Ð\\ØÜš\Y\Û[Ý\\ÉÎˆNKŒÂˆXYÎˆŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\\ØÜš\ˆKŽKŒÂˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ	Ð\\ØÜš\Y\Û[ÜØÛÜK[X[˜YÙ\NKŒÉÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ØÜš\Y\Û[Ý\\ÉÎˆNKŒÂˆ	Ð\\ØÜš\Y\Û[Ýš\Ú]Ü‹ZÙ^\ÉÎˆNKŒÂ‚ˆ	Ð\\ØÜš\Y\Û[ÝØÛÛ™šYË]][ÐNKŒÊ\\ØÜš\KŽKŒÊIÎ‚ˆ\[™[˜ÚY\Î‚ˆ\\ØÜš\ˆKŽKŒÂ‚ˆ	Ð\\ØÜš\Y\Û[Ý\K]][ÐNKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ØÜš\Y\Û[Ý\\ÉÎˆNKŒÂˆ	Ð\\ØÜš\Y\Û[Ý\\ØÜš\Y\Ý™YIÎˆNKŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ	Ð\\ØÜš\Y\Û[Ý][ÉÎˆNKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆXYÎˆŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆËX\K]][Îˆ‹KŒ
+\\ØÜš\KŽKŒÊBˆ\\ØÜš\ˆKŽKŒÂˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ	Ð\\ØÜš\Y\Û[Ý\\ÐNKŒÉÎˆßB‚ˆ	Ð\\ØÜš\Y\Û[Ý\\ØÜš\Y\Ý™YPNKŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ØÜš\Y\Û[Ü›Ú™XÝ\Ù\šXÙIÎˆNKŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ	Ð\\ØÜš\Y\Û[ÝØÛÛ™šYË]][ÉÎˆNKŒÊ\\ØÜš\KŽKŒÊBˆ	Ð\\ØÜš\Y\Û[Ý\\ÉÎˆNKŒÂˆ	Ð\\ØÜš\Y\Û[Ýš\Ú]Ü‹ZÙ^\ÉÎˆNKŒÂˆXYÎˆŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠBˆZ[š[X]ÚˆLŒ‹BˆÙ[]™\ŽˆËŽBˆ[žYÛØ˜žNˆŒ‹ŒM‚ˆËX\K]][Îˆ‹KŒ
+\\ØÜš\KŽKŒÊBˆ\\ØÜš\ˆKŽKŒÂˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ	Ð\\ØÜš\Y\Û[Ý][ÐNKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\Û[XÛÛ[][š]KÙ\Û[]][ÉÎˆŽKŒJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJBˆ	Ð\\ØÜš\Y\Û[ÜØÛÜK[X[˜YÙ\‰ÎˆNKŒÂˆ	Ð\\ØÜš\Y\Û[Ý\\ÉÎˆNKŒÂˆ	Ð\\ØÜš\Y\Û[Ý\\ØÜš\Y\Ý™YIÎˆNKŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\\ØÜš\ˆKŽKŒÂˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ	Ð\\ØÜš\Y\Û[Ýš\Ú]Ü‹ZÙ^\ÐNKŒÉÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ØÜš\Y\Û[Ý\\ÉÎˆNKŒÂˆ\Û[]š\Ú]Ü‹ZÙ^\ÎˆKŒŒB‚ˆ	Ð[œXËØÛÜ™PKŒŒÉÎ‚ˆ\[™[˜ÚY\Î‚ˆ[œXÎˆŒ‹Œ‚‚ˆ	Ð[œXËÜ™XXÝKŒŒŠ™^M‹ŒË
+˜X™[ØÛÜ™PËŒŽKŒ
+Ý\ÜËXÛÛÜLŒ‹ŒŠJJ\\ËÛ›ÙPŒ‹ŒNKŒNJJ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠJJ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð[œXËØÛÜ™IÎˆKŒŒÂˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ™^ˆM‹ŒË
+˜X™[ØÛÜ™PËŒŽKŒ
+Ý\ÜËXÛÛÜLŒ‹ŒŠJJ\\ËÛ›ÙPŒ‹ŒNKŒNJJ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™ËX[™›ÚYX\›KYXXšPKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™ËX[™›ÚYX\›MKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™ËY\Ú[‹X\›MKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™ËY\Ú[‹^KŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™ËYœ™YXœÙ^KŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^X\›KYÛYXXšZKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^X\›K[]\ÛXXšZKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^X\›MYÛPKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^X\›M[]\ÛKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^\ÍYÛPKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^\š\ØÝYÛPKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^\š\ØÝ[]\ÛKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^\ÌÎLYÛPKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^^YÛPKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^^[]\ÛKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë]Ø\ÛLÌ‹]Ø\ÚPKŒLKŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜\K\œËÝØ\ÛK\[[YIÎˆŒ‹ŒL‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë]Ú[ŒÌ‹X\›M[\Ý˜ÐKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë]Ú[ŒÌ‹ZXLÌ‹[\Ý˜ÐKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë]Ú[ŒÌ‹^[\Ý˜ÐKŒLKŒIÎ‚ˆÜ[Û˜[ˆYB‚ˆ	Ð™\˜Ù[ÛÙÐŽ‰Î‚ˆ\[™[˜ÚY\Î‚ˆ	Ð™\Ý™ËÜ™\Ý™Ë]Ø\ÛIÎˆ‹ŒˆØ]ÜšNˆŒM‹Œ‚ˆ	Ðš[™^Ý\\ÐKŒŒX™]KŒ‰ÎˆßB‚ˆ	Ðš]ZœËÜYÚ[‹\™XXÝ‹ŒŒŠš]PŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJJIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð›ÛÝÛ‹ÜYÚ[][ÉÎˆKŒŒBˆš]NˆŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJB‚ˆ	Ðš]ZœËÜYÚ[‹\œØÐKŒŠ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝ\Ù\™\‹YÛK]ÙXœXÚÐNKŒ‹Š™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠJÙXœXÚÐKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊJJJ™XXÝNKŒ‹ŠJš]PŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJJIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð›ÛÝÛ‹ÜYÚ[][ÉÎˆKŒŒ\˜ËŒNˆ\Ë[[Ù[K[^\Žˆ‹ŒKŒˆ\Ý™YK]Ø[Ù\ŽˆËŒŒÂˆXYÚXË\Ýš[™ÎˆŒÌŒŒBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜžˆŒLKŒMBˆÝš\[]\˜[ˆËŒKŒˆ\˜›Ë\Ý™X[NˆËŒ‹Œˆš]NˆŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJBˆš]YNˆKŒKŒÊš]PŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJJBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ™XXÝ\Ù\™\‹YÛK]ÙXœXÚÎˆNKŒ‹Š™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠJÙXœXÚÐKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊJB‚ˆ	ÐÙX˜\ÜÙ[X›ZœËØ\ÝKŒMŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹[[X™\œÉÎˆKŒLËŒ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹]Ø\ÛKXž]XÛÙIÎˆKŒLËŒ‚‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÙ›Ø][™Ë\Ú[Z^\\œÙ\KŒLËŒ‰ÎˆßB‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹X\KY\œ›ÜKŒLËŒ‰ÎˆßB‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹XY™™\KŒMŒIÎˆßB‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹[[X™\œÐKŒLËŒ‰Î‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÙ›Ø][™Ë\Ú[Z^\\œÙ\‰ÎˆKŒLËŒ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹X\KY\œ›Ü‰ÎˆKŒLËŒ‚ˆ	ÐXËÛÛ™ÉÎˆŒ‹Œ‚‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹]Ø\ÛKXž]XÛÙPKŒLËŒ‰ÎˆßB‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹]Ø\ÛK\ÙXÝ[ÛKŒMŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÙX˜\ÜÙ[X›ZœËØ\Ý	ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹XY™™\‰ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹]Ø\ÛKXž]XÛÙIÎˆKŒLËŒ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛKYÙ[‰ÎˆKŒMŒB‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚYYYMÍMKŒLËŒ‰Î‚ˆ\[™[˜ÚY\Î‚ˆ	ÐXËÚYYYMÍM	ÎˆKŒ‹Œ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÛXŒLŽKŒLËŒ‰Î‚ˆ\[™[˜ÚY\Î‚ˆ	ÐXËÛÛ™ÉÎˆŒ‹Œ‚‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÝ]ŽKŒLËŒ‰ÎˆßB‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛKYY]KŒMŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÙX˜\ÜÙ[X›ZœËØ\Ý	ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹XY™™\‰ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹]Ø\ÛKXž]XÛÙIÎˆKŒLËŒ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹]Ø\ÛK\ÙXÝ[Û‰ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛKYÙ[‰ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛK[Ü	ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛK\\œÙ\‰ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\Ý\š[\‰ÎˆKŒMŒB‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛKYÙ[KŒMŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÙX˜\ÜÙ[X›ZœËØ\Ý	ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹]Ø\ÛKXž]XÛÙIÎˆKŒLËŒ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚYYYMÍM	ÎˆKŒLËŒ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÛXŒLŽ	ÎˆKŒLËŒ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÝ]Ž	ÎˆKŒLËŒ‚‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛK[ÜKŒMŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÙX˜\ÜÙ[X›ZœËØ\Ý	ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹XY™™\‰ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛKYÙ[‰ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛK\\œÙ\‰ÎˆKŒMŒB‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛK\\œÙ\KŒMŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÙX˜\ÜÙ[X›ZœËØ\Ý	ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹X\KY\œ›Ü‰ÎˆKŒLËŒ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚ[\‹]Ø\ÛKXž]XÛÙIÎˆKŒLËŒ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÚYYYMÍM	ÎˆKŒLËŒ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÛXŒLŽ	ÎˆKŒLËŒ‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÝ]Ž	ÎˆKŒLËŒ‚‚ˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\Ý\š[\KŒMŒIÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÙX˜\ÜÙ[X›ZœËØ\Ý	ÎˆKŒMŒBˆ	ÐXËÛÛ™ÉÎˆŒ‹Œ‚‚ˆ	ÐXËÚYYYMÍMKŒ‹Œ	ÎˆßB‚ˆ	ÐXËÛÛ™ÐŒ‹Œ‰ÎˆßB‚ˆXÛÜ›‹Z[\Ü\\Ù\ÐKŒ
+XÛÜ›ŒM‹Œ
+N‚ˆ\[™[˜ÚY\Î‚ˆXÛÜ›ŽˆŒM‹Œ‚ˆXÛÜ›‹ZœÞKŒËŒŠXÛÜ›ŒM‹Œ
+N‚ˆ\[™[˜ÚY\Î‚ˆXÛÜ›ŽˆŒM‹Œ‚ˆXÛÜ›‹[ÛÜÙPKŒŽ‚ˆ\[™[˜ÚY\Î‚ˆXÛÜ›ŽˆŒM‹Œ‚ˆXÛÜ›ŒM‹ŒˆßB‚ˆZ‹Y›Ü›X]Ð‹ŒKŒJZŒŒŒ
+N‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆZŽˆŒŒŒ‚ˆZ‹ZÙ^]ÛÜ™ÐKŒKŒ
+ZŒŒŒ
+N‚ˆ\[™[˜ÚY\Î‚ˆZŽˆŒŒŒˆ˜\ÝYY\Y\]X[ˆËŒKŒÂ‚ˆZ‹ŒMKŒ‚ˆ\[™[˜ÚY\Î‚ˆ˜\ÝYY\Y\]X[ˆËŒKŒÂˆ˜\ÝZœÛÛ‹\ÝX›K\Ýš[™ÚYžNˆ‹ŒKŒˆœÛÛ‹\ØÚ[XK]˜]™\œÙNˆŒBˆ\šKZœÎˆŒB‚ˆZŒŒŒ‚ˆ\[™[˜ÚY\Î‚ˆ˜\ÝYY\Y\]X[ˆËŒKŒÂˆ˜\Ý]\šNˆËŒKÂˆœÛÛ‹\ØÚ[XK]˜]™\œÙNˆKŒŒˆ™\]Z\™KYœ›ÛK\Ýš[™Îˆ‹ŒŒ‚‚ˆ[œÚK\Ý[\ÐŒËŒ‚ˆ\[™[˜ÚY\Î‚ˆÛÛÜ‹XÛÛ™\ˆ‹ŒŒB‚ˆ\™Ü\œÙP‹ŒŒNˆßB‚ˆ\šXKZY[KŒ‹Ž‚ˆ\[™[˜ÚY\Î‚ˆÛXŽˆ‹ŽŒB‚ˆ\šXK\]Y\žPKŒËŒŽˆßB‚ˆ\œ˜^KXY™™\‹Xž]K[[™ÝKŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\ËX\œ˜^KXY™™\ŽˆËŒB‚ˆ\œ˜^KZ[˜ÛY\ÐËŒKŽN‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒBˆÙ]Z[š[œÚXÎˆKŒËŒˆ\Ë\Ýš[™ÎˆKŒKŒBˆX]Z[š[œÚXÜÎˆKŒKŒ‚ˆ\œ˜^Kœ›ÝÝ\K™š[™\ÝKŒ‹N‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒBˆ\Ë\Ú[K][œØÛÜX›\ÎˆKŒKŒ‚ˆ\œ˜^Kœ›ÝÝ\K™š[™\Ý[™^KŒ‹Ž‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒBˆ\Ë\Ú[K][œØÛÜX›\ÎˆKŒKŒ‚ˆ\œ˜^Kœ›ÝÝ\K™›]KŒËŒÎ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\Ë\Ú[K][œØÛÜX›\ÎˆKŒKŒ‚ˆ\œ˜^Kœ›ÝÝ\K™›]X\KŒËŒÎ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\Ë\Ú[K][œØÛÜX›\ÎˆKŒKŒ‚ˆ\œ˜^Kœ›ÝÝ\KÜÛÜYKŒK‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ë\Ú[K][œØÛÜX›\ÎˆKŒKŒ‚ˆ\œ˜^XY™™\‹œ›ÝÝ\KœÛXÙPKŒ‚ˆ\[™[˜ÚY\Î‚ˆ\œ˜^KXY™™\‹Xž]K[[™ÝˆKŒŒ‚ˆØ[Xš[™ˆKŒŽBˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆÙ]Z[š[œÚXÎˆKŒËŒˆ\ËX\œ˜^KXY™™\ŽˆËŒB‚ˆ\Ý]\\ËY›ÝÐŒŽˆßB‚ˆ\Þ[˜ËY[˜Ý[ÛKŒŒˆßB‚ˆ]˜Z[X›K]\YX\œ˜^\ÐKŒÎ‚ˆ\[™[˜ÚY\Î‚ˆÜÜÚX›K]\YX\œ˜^K[˜[Y\ÎˆKŒKŒ‚ˆ^KXÛÜ™PŒLKˆßB‚ˆ^Øš™XÝ\]Y\žPŒKŒˆßB‚ˆ˜[[˜ÙY[X]ÚKŒŒŽˆßB‚ˆ˜[[˜ÙY[X]ÚŒˆßB‚ˆ˜\ÙMZœÐŒŽˆßB‚ˆ˜\Ù[[™KXœ›ÝÜÙ\‹[X\[™Ð‹ŒLŒÌˆßB‚ˆ›ZÙLË]Ø\ÛP‹ŒKNˆßB‚ˆœ˜XÙKY^[œÚ[ÛKŒKŒM‚ˆ\[™[˜ÚY\Î‚ˆ˜[[˜ÙY[X]ÚˆKŒŒ‚ˆÛÛ˜Ø][X\ˆŒŒB‚ˆœ˜XÙKY^[œÚ[ÛKŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ˜[[˜ÙY[X]ÚˆŒ‚ˆœ˜XÙ\ÐËŒŒÎ‚ˆ\[™[˜ÚY\Î‚ˆš[\˜[™ÙNˆËŒKŒB‚ˆœ›ÝÜÙ\œÛ\ÝŒŽŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ˜\Ù[[™KXœ›ÝÜÙ\‹[X\[™Îˆ‹ŒLŒÌˆØ[š]\ÙK[]NˆKŒŒÌMÎLÂˆ[XÝ›Û‹]ËXÚ›ÛZ][NˆKKŒÍNˆ›ÙK\™[X\Ù\Îˆ‹Œˆ\]KXœ›ÝÜÙ\œÛ\ÝYŽˆKŒ‹ŒÊœ›ÝÜÙ\œÛ\ÝŒŽŒŠB‚ˆY™™\‹Yœ›ÛPKŒKŒŽˆßB‚ˆØ[Xš[™X\KZ[\œÐKŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆ[˜Ý[Û‹Xš[™ˆKŒKŒ‚‚ˆØ[Xš[™KŒŽN‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™X\KZ[\œÎˆKŒŒ‚ˆ\ËYYš[™K\›Ü\NˆKŒŒBˆÙ]Z[š[œÚXÎˆKŒËŒˆÙ]Y[˜Ý[Û‹[[™ÝˆKŒ‹Œ‚‚ˆØ[X›Ý[™KŒ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™X\KZ[\œÎˆKŒŒ‚ˆÙ]Z[š[œÚXÎˆKŒËŒ‚ˆØ[Ú]\ÐËŒKŒˆßB‚ˆØ[Y[^™PKŒŒNˆßB‚ˆØ[š]\ÙK[]PKŒŒÌMÎLÎˆßB‚ˆÚ[ÐŒKŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ[œÚK\Ý[\ÎˆŒËŒˆÝ\ÜËXÛÛÜŽˆËŒ‹Œ‚ˆÚ›ÛYK]˜XÙKY]™[KŒˆßB‚ˆÛ\ÜË]˜\šX[˜ÙKX]]Üš]PËŒN‚ˆ\[™[˜ÚY\Î‚ˆÛÞˆ‹ŒKŒB‚ˆÛY[[Û›PŒŒNˆßB‚ˆÛÞ‹ŒKŒNˆßB‚ˆÛYÐKŒKŒJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝYX[ÙÉÎˆKŒKŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZY	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆH	Ð\\ËÜ™XXÝ	ÂˆH	Ð\\ËÜ™XXÝYÛIÂ‚ˆÛÛÜ‹XÛÛ™\‹ŒŒN‚ˆ\[™[˜ÚY\Î‚ˆÛÛÜ‹[˜[YNˆKŒK‚ˆÛÛÜ‹[˜[YPKŒKˆßB‚ˆÛÛ[X[™\‹ŒŒŒÎˆßB‚ˆÛÛ˜Ø][X\ŒŒNˆßB‚ˆÛÛ™\\ÛÝ\˜ÙK[X\‹ŒŒˆßB‚ˆÛÛÚÚYPKŒKŒNˆßB‚ˆÜ›ÜÜË\Ü]ÛËŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ]ZÙ^NˆËŒKŒBˆÚX˜[™ËXÛÛ[X[™ˆ‹ŒŒˆÚXÚˆ‹ŒŒ‚‚ˆÜÜËX˜XÚÙÜ›Ý[™\\œÙ\ŒKŒˆßB‚ˆÜÜËX›Þ\ÚYÝÐKŒŒLÎˆßB‚ˆÜÜËXÛÛÜ‹ZÙ^]ÛÜ™ÐKŒŒˆßB‚ˆÜÜËYÜ˜YY[\\œÙ\ŒŒMŽˆßB‚ˆÜÜË]Ë\™XXÝ[˜]]™PËŒ‹Œ‚ˆ\[™[˜ÚY\Î‚ˆØ[Y[^™NˆKŒŒBˆÜÜËXÛÛÜ‹ZÙ^]ÛÜ™ÎˆKŒŒˆÜÝÜÜË]˜[YK\\œÙ\ŽˆŒ‹Œ‚ˆÜÜÝ\PËŒ‹ŒÎˆßB‚ˆËX\œ˜^PËŒ‹‚ˆ\[™[˜ÚY\Î‚ˆ[\››X\ˆ‹ŒŒÂ‚ˆËXÛÛÜËŒKŒˆßB‚ˆËYX\ÙPËŒŒNˆßB‚ˆËY›Ü›X]ËŒKŒŽˆßB‚ˆËZ[\œÛ]PËŒŒN‚ˆ\[™[˜ÚY\Î‚ˆËXÛÛÜŽˆËŒKŒ‚ˆË\]ËŒKŒˆßB‚ˆË\ØØ[PŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆËX\œ˜^NˆËŒ‹ˆËY›Ü›X]ˆËŒKŒ‚ˆËZ[\œÛ]NˆËŒŒBˆË][YNˆËŒKŒˆË][YKY›Ü›X]ˆŒKŒ‚ˆË\Ú\PËŒ‹Œ‚ˆ\[™[˜ÚY\Î‚ˆË\]ˆËŒKŒ‚ˆË][YKY›Ü›X]ŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆË][YNˆËŒKŒ‚ˆË][YPËŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆËX\œ˜^NˆËŒ‹‚ˆË][Y\ËŒŒNˆßB‚ˆ[Y\˜]K[]™[œÚZ[KŒŽˆßB‚ˆ]K]šY]ËXY™™\KŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\ËY\œ›ÜœÎˆKŒËŒˆ\ËY]K]šY]ÎˆKŒŒ‚‚ˆ]K]šY]ËXž]K[[™ÝKŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\ËY\œ›ÜœÎˆKŒËŒˆ\ËY]K]šY]ÎˆKŒŒ‚‚ˆ]K]šY]ËXž]K[Ù™œÙ]KŒŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\ËY\œ›ÜœÎˆKŒËŒˆ\ËY]K]šY]ÎˆKŒŒ‚‚ˆ]KY›œÐŒˆßB‚ˆXYÐËŒ‹ÊÝ\ÜËXÛÛÜLŒ‹ŒŠN‚ˆ\[™[˜ÚY\Î‚ˆ\Îˆ‹ŒKŒÂˆÜ[Û˜[\[™[˜ÚY\Î‚ˆÝ\ÜËXÛÛÜŽˆLŒ‹Œ‚‚ˆXYÐŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠN‚ˆ\[™[˜ÚY\Î‚ˆ\Îˆ‹ŒKŒÂˆÜ[Û˜[\[™[˜ÚY\Î‚ˆÝ\ÜËXÛÛÜŽˆLŒ‹Œ‚‚ˆXÚ[X[šœË[YÚ‹KŒNˆßB‚ˆY\Z\ÐŒKˆßB‚ˆYš[™KY]K\›Ü\PKŒK‚ˆ\[™[˜ÚY\Î‚ˆ\ËYYš[™K\›Ü\NˆKŒŒBˆ\ËY\œ›ÜœÎˆKŒËŒˆÛÜˆKŒ‹Œ‚ˆYš[™K\›Ü\Y\ÐKŒ‹ŒN‚ˆ\[™[˜ÚY\Î‚ˆYš[™KY]K\›Ü\NˆKŒKˆ\Ë\›Ü\KY\ØÜš\ÜœÎˆKŒŒ‚ˆØš™XÝZÙ^\ÎˆKŒKŒB‚ˆ]XÝ[X˜Ð‹ŒKŒŽˆßB‚ˆ]XÝ[›ÙKY\ÐKŒKŒˆßB‚ˆØÝš[™P‹ŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆ\Ý][Îˆ‹ŒŒÂ‚ˆš^ž›KZÚ]ŒÌKŒL‚ˆ\[™[˜ÚY\Î‚ˆ	Ðš^ž›K]X[KØœ›ØÛIÎˆŒLŒ‚ˆ	Ð\ØZ[ZÚ]Ù\ÛK[ØY\‰Îˆ‹‹Bˆ\ØZ[ˆŒKŒL‚ˆÞˆŒŒ‹ŒB‚ˆš^ž›K[Ü›PKŒŠÛÝY›\™KÝÛÜšÙ\œË]\\ÐŒŒŒLMKŒJN‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	ÐÛÝY›\™KÝÛÜšÙ\œË]\\ÉÎˆŒŒŒLMKŒB‚ˆ[™\‹\›ÝÐKŒŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™X\KZ[\œÎˆKŒŒ‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆÛÜˆKŒ‹Œ‚ˆ[XÝ›Û‹]ËXÚ›ÛZ][PKKŒÍNˆßB‚ˆ[X›KXØ\›Ý\Ù[\™XXÝ‹Œ
+™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ[X›KXØ\›Ý\Ù[ˆ‹Œˆ[X›KXØ\›Ý\Ù[\™XXÝ]™K]][Îˆ‹Œ
+[X›KXØ\›Ý\Ù[‹Œ
+Bˆ™XXÝˆNKŒ‹‚‚ˆ[X›KXØ\›Ý\Ù[\™XXÝ]™K]][Ð‹Œ
+[X›KXØ\›Ý\Ù[‹Œ
+N‚ˆ\[™[˜ÚY\Î‚ˆ[X›KXØ\›Ý\Ù[ˆ‹Œ‚ˆ[X›KXØ\›Ý\Ù[‹ŒˆßB‚ˆ[[ÚšK\™YÙ^^Ð‹ŒŒNˆßB‚ˆ[[ÚšK\™YÙ^KŒ‹ŒŽˆßB‚ˆ[š[˜ÙY\™\ÛÛ™PKŒŒKŒÎ‚ˆ\[™[˜ÚY\Î‚ˆÜ˜XÙY[YœÎˆŒ‹ŒLBˆ\X›Nˆ‹ŒËŒÂ‚ˆ\œ›Ü‹\ÝXÚË\\œÙ\‹Y\ÐKŒNˆßB‚ˆ\ËXXœÝ˜XÝKŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ\œ˜^KXY™™\‹Xž]K[[™ÝˆKŒŒ‚ˆ\œ˜^XY™™\‹œ›ÝÝ\KœÛXÙNˆKŒˆ]˜Z[X›K]\YX\œ˜^\ÎˆKŒÂˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆ]K]šY]ËXY™™\ŽˆKŒŒ‚ˆ]K]šY]ËXž]K[[™ÝˆKŒŒ‚ˆ]K]šY]ËXž]K[Ù™œÙ]ˆKŒŒBˆ\ËYYš[™K\›Ü\NˆKŒŒBˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒBˆ\Ë\Ù]]ÜÝš[™ÝYÎˆ‹ŒKŒˆ\Ë]Ë\š[Z]]™NˆKŒËŒˆ[˜Ý[Û‹œ›ÝÝ\K›˜[YNˆKŒKŽˆÙ]Z[š[œÚXÎˆKŒËŒˆÙ]\›ÝÎˆKŒŒBˆÙ]\Þ[X›ÛY\ØÜš\[ÛŽˆKŒKŒˆÛØ˜[\ÎˆKŒˆÛÜˆKŒ‹Œˆ\Ë\›Ü\KY\ØÜš\ÜœÎˆKŒŒ‚ˆ\Ë\›ÝÎˆKŒ‹Œˆ\Ë\Þ[X›ÛÎˆKŒKŒˆ\ÛÝÛŽˆ‹ŒŒÂˆ[\›˜[\ÛÝˆKŒKŒˆ\ËX\œ˜^KXY™™\ŽˆËŒBˆ\ËXØ[X›NˆKŒ‹Âˆ\ËY]K]šY]ÎˆKŒŒ‚ˆ\Ë[™YØ]]™K^™\›Îˆ‹ŒŒÂˆ\Ë\™YÙ^ˆKŒ‹ŒBˆ\Ë\Ù]ˆ‹ŒŒÂˆ\Ë\Ú\™YX\œ˜^KXY™™\ŽˆKŒˆ\Ë\Ýš[™ÎˆKŒKŒBˆ\Ë]\YX\œ˜^NˆKŒKŒMBˆ\Ë]ÙXZÜ™YŽˆKŒKŒBˆX]Z[š[œÚXÜÎˆKŒKŒˆØš™XÝZ[œÜXÝˆKŒLËˆØš™XÝZÙ^\ÎˆKŒKŒBˆØš™XÝ˜\ÜÚYÛŽˆŒKÂˆÝÛ‹ZÙ^\ÎˆKŒŒBˆ™YÙ^œ›ÝÝ\K™›YÜÎˆKKˆØY™KX\œ˜^KXÛÛ˜Ø]ˆKŒKˆØY™K\\ÚX\NˆKŒŒˆØY™K\™YÙ^]\ÝˆKŒKŒˆÙ]\›ÝÎˆKŒŒˆÝÜZ]\˜][Û‹Z]\˜]ÜŽˆKŒKŒˆÝš[™Ëœ›ÝÝ\Kš[NˆKŒ‹ŒLˆÝš[™Ëœ›ÝÝ\Kš[Y[™ˆKŒŽBˆÝš[™Ëœ›ÝÝ\Kš[\Ý\ˆKŒŽˆ\YX\œ˜^KXY™™\ŽˆKŒŒÂˆ\YX\œ˜^KXž]K[[™ÝˆKŒŒÂˆ\YX\œ˜^KXž]K[Ù™œÙ]ˆKŒˆ\YX\œ˜^K[[™ÝˆKŒÂˆ[˜›Þ\š[Z]]™NˆKŒKŒˆÚXÚ]\YX\œ˜^NˆKŒKŒŒ‚ˆ\ËYYš[™K\›Ü\PKŒŒNˆßB‚ˆ\ËY\œ›ÜœÐKŒËŒˆßB‚ˆ\ËZ]\˜]Ü‹Z[\œÐKŒËŒŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ë\Ù]]ÜÝš[™ÝYÎˆ‹ŒKŒˆ[˜Ý[Û‹Xš[™ˆKŒKŒ‚ˆÙ]Z[š[œÚXÎˆKŒËŒˆÛØ˜[\ÎˆKŒˆÛÜˆKŒ‹Œˆ\Ë\›Ü\KY\ØÜš\ÜœÎˆKŒŒ‚ˆ\Ë\›ÝÎˆKŒ‹Œˆ\Ë\Þ[X›ÛÎˆKŒKŒˆ[\›˜[\ÛÝˆKŒKŒˆ]\˜]Ü‹œ›ÝÝ\NˆKŒKBˆX]Z[š[œÚXÜÎˆKŒKŒ‚ˆ\Ë[[Ù[K[^\KËŒˆßB‚ˆ\Ë[[Ù[K[^\‹ŒKŒˆßB‚ˆ\Ë[Øš™XÝX]Û\ÐKŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆ\ËY\œ›ÜœÎˆKŒËŒ‚ˆ\Ë\Ù]]ÜÝš[™ÝYÐ‹ŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆÙ]Z[š[œÚXÎˆKŒËŒˆ\Ë]ÜÝš[™ÝYÎˆKŒŒ‚ˆ\ÛÝÛŽˆ‹ŒŒÂ‚ˆ\Ë\Ú[K][œØÛÜX›\ÐKŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆ\ÛÝÛŽˆ‹ŒŒÂ‚ˆ\Ë]Ë\š[Z]]™PKŒËŒ‚ˆ\[™[˜ÚY\Î‚ˆ\ËXØ[X›NˆKŒ‹Âˆ\ËY]K[Øš™XÝˆKŒKŒˆ\Ë\Þ[X›ÛˆKŒKŒB‚ˆ\Ë]ÛÛÚ]KLŒˆßB‚ˆ\ØZ[ŒNŒŒ‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\ØZ[Ø[™›ÚYX\›IÎˆŒNŒŒˆ	Ð\ØZ[Ø[™›ÚYX\›M	ÎˆŒNŒŒˆ	Ð\ØZ[Ø[™›ÚY^	ÎˆŒNŒŒˆ	Ð\ØZ[Ù\Ú[‹X\›M	ÎˆŒNŒŒˆ	Ð\ØZ[Ù\Ú[‹^	ÎˆŒNŒŒˆ	Ð\ØZ[Ùœ™YXœÙX\›M	ÎˆŒNŒŒˆ	Ð\ØZ[Ùœ™YXœÙ^	ÎˆŒNŒŒˆ	Ð\ØZ[Û[^X\›IÎˆŒNŒŒˆ	Ð\ØZ[Û[^X\›M	ÎˆŒNŒŒˆ	Ð\ØZ[Û[^ZXLÌ‰ÎˆŒNŒŒˆ	Ð\ØZ[Û[^[ÛÛ™Í	ÎˆŒNŒŒˆ	Ð\ØZ[Û[^[Z\Í[	ÎˆŒNŒŒˆ	Ð\ØZ[Û[^\Í	ÎˆŒNŒŒˆ	Ð\ØZ[Û[^\š\ØÝ	ÎˆŒNŒŒˆ	Ð\ØZ[Û[^\ÌÎL	ÎˆŒNŒŒˆ	Ð\ØZ[Û[^^	ÎˆŒNŒŒˆ	Ð\ØZ[Û™]œÙ^	ÎˆŒNŒŒˆ	Ð\ØZ[ÛÜ[˜œÙ^	ÎˆŒNŒŒˆ	Ð\ØZ[ÜÝ[›ÜË^	ÎˆŒNŒŒˆ	Ð\ØZ[ÝÚ[ŒÌ‹X\›M	ÎˆŒNŒŒˆ	Ð\ØZ[ÝÚ[ŒÌ‹ZXLÌ‰ÎˆŒNŒŒˆ	Ð\ØZ[ÝÚ[ŒÌ‹^	ÎˆŒNŒŒ‚ˆ\ØZ[ŒKŒLŽ‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\ØZ[ØZ^\Í	ÎˆŒKŒL‚ˆ	Ð\ØZ[Ø[™›ÚYX\›IÎˆŒKŒL‚ˆ	Ð\ØZ[Ø[™›ÚYX\›M	ÎˆŒKŒL‚ˆ	Ð\ØZ[Ø[™›ÚY^	ÎˆŒKŒL‚ˆ	Ð\ØZ[Ù\Ú[‹X\›M	ÎˆŒKŒL‚ˆ	Ð\ØZ[Ù\Ú[‹^	ÎˆŒKŒL‚ˆ	Ð\ØZ[Ùœ™YXœÙX\›M	ÎˆŒKŒL‚ˆ	Ð\ØZ[Ùœ™YXœÙ^	ÎˆŒKŒL‚ˆ	Ð\ØZ[Û[^X\›IÎˆŒKŒL‚ˆ	Ð\ØZ[Û[^X\›M	ÎˆŒKŒL‚ˆ	Ð\ØZ[Û[^ZXLÌ‰ÎˆŒKŒL‚ˆ	Ð\ØZ[Û[^[ÛÛ™Í	ÎˆŒKŒL‚ˆ	Ð\ØZ[Û[^[Z\Í[	ÎˆŒKŒL‚ˆ	Ð\ØZ[Û[^\Í	ÎˆŒKŒL‚ˆ	Ð\ØZ[Û[^\š\ØÝ	ÎˆŒKŒL‚ˆ	Ð\ØZ[Û[^\ÌÎL	ÎˆŒKŒL‚ˆ	Ð\ØZ[Û[^^	ÎˆŒKŒL‚ˆ	Ð\ØZ[Û™]œÙX\›M	ÎˆŒKŒL‚ˆ	Ð\ØZ[Û™]œÙ^	ÎˆŒKŒL‚ˆ	Ð\ØZ[ÛÜ[˜œÙX\›M	ÎˆŒKŒL‚ˆ	Ð\ØZ[ÛÜ[˜œÙ^	ÎˆŒKŒL‚ˆ	Ð\ØZ[ÛÜ[š\›[ÛžKX\›M	ÎˆŒKŒL‚ˆ	Ð\ØZ[ÜÝ[›ÜË^	ÎˆŒKŒL‚ˆ	Ð\ØZ[ÝÚ[ŒÌ‹X\›M	ÎˆŒKŒL‚ˆ	Ð\ØZ[ÝÚ[ŒÌ‹ZXLÌ‰ÎˆŒKŒL‚ˆ	Ð\ØZ[ÝÚ[ŒÌ‹^	ÎˆŒKŒL‚‚ˆ\ØZ[ŒËŒÎ‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\ØZ[ØZ^\Í	ÎˆŒËŒÂˆ	Ð\ØZ[Ø[™›ÚYX\›IÎˆŒËŒÂˆ	Ð\ØZ[Ø[™›ÚYX\›M	ÎˆŒËŒÂˆ	Ð\ØZ[Ø[™›ÚY^	ÎˆŒËŒÂˆ	Ð\ØZ[Ù\Ú[‹X\›M	ÎˆŒËŒÂˆ	Ð\ØZ[Ù\Ú[‹^	ÎˆŒËŒÂˆ	Ð\ØZ[Ùœ™YXœÙX\›M	ÎˆŒËŒÂˆ	Ð\ØZ[Ùœ™YXœÙ^	ÎˆŒËŒÂˆ	Ð\ØZ[Û[^X\›IÎˆŒËŒÂˆ	Ð\ØZ[Û[^X\›M	ÎˆŒËŒÂˆ	Ð\ØZ[Û[^ZXLÌ‰ÎˆŒËŒÂˆ	Ð\ØZ[Û[^[ÛÛ™Í	ÎˆŒËŒÂˆ	Ð\ØZ[Û[^[Z\Í[	ÎˆŒËŒÂˆ	Ð\ØZ[Û[^\Í	ÎˆŒËŒÂˆ	Ð\ØZ[Û[^\š\ØÝ	ÎˆŒËŒÂˆ	Ð\ØZ[Û[^\ÌÎL	ÎˆŒËŒÂˆ	Ð\ØZ[Û[^^	ÎˆŒËŒÂˆ	Ð\ØZ[Û™]œÙX\›M	ÎˆŒËŒÂˆ	Ð\ØZ[Û™]œÙ^	ÎˆŒËŒÂˆ	Ð\ØZ[ÛÜ[˜œÙX\›M	ÎˆŒËŒÂˆ	Ð\ØZ[ÛÜ[˜œÙ^	ÎˆŒËŒÂˆ	Ð\ØZ[ÛÜ[š\›[ÛžKX\›M	ÎˆŒËŒÂˆ	Ð\ØZ[ÜÝ[›ÜË^	ÎˆŒËŒÂˆ	Ð\ØZ[ÝÚ[ŒÌ‹X\›M	ÎˆŒËŒÂˆ	Ð\ØZ[ÝÚ[ŒÌ‹ZXLÌ‰ÎˆŒËŒÂˆ	Ð\ØZ[ÝÚ[ŒÌ‹^	ÎˆŒËŒÂ‚ˆ\ØZ[ŒŽŒ‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\ØZ[ØZ^\Í	ÎˆŒŽŒˆ	Ð\ØZ[Ø[™›ÚYX\›IÎˆŒŽŒˆ	Ð\ØZ[Ø[™›ÚYX\›M	ÎˆŒŽŒˆ	Ð\ØZ[Ø[™›ÚY^	ÎˆŒŽŒˆ	Ð\ØZ[Ù\Ú[‹X\›M	ÎˆŒŽŒˆ	Ð\ØZ[Ù\Ú[‹^	ÎˆŒŽŒˆ	Ð\ØZ[Ùœ™YXœÙX\›M	ÎˆŒŽŒˆ	Ð\ØZ[Ùœ™YXœÙ^	ÎˆŒŽŒˆ	Ð\ØZ[Û[^X\›IÎˆŒŽŒˆ	Ð\ØZ[Û[^X\›M	ÎˆŒŽŒˆ	Ð\ØZ[Û[^ZXLÌ‰ÎˆŒŽŒˆ	Ð\ØZ[Û[^[ÛÛ™Í	ÎˆŒŽŒˆ	Ð\ØZ[Û[^[Z\Í[	ÎˆŒŽŒˆ	Ð\ØZ[Û[^\Í	ÎˆŒŽŒˆ	Ð\ØZ[Û[^\š\ØÝ	ÎˆŒŽŒˆ	Ð\ØZ[Û[^\ÌÎL	ÎˆŒŽŒˆ	Ð\ØZ[Û[^^	ÎˆŒŽŒˆ	Ð\ØZ[Û™]œÙX\›M	ÎˆŒŽŒˆ	Ð\ØZ[Û™]œÙ^	ÎˆŒŽŒˆ	Ð\ØZ[ÛÜ[˜œÙX\›M	ÎˆŒŽŒˆ	Ð\ØZ[ÛÜ[˜œÙ^	ÎˆŒŽŒˆ	Ð\ØZ[ÛÜ[š\›[ÛžKX\›M	ÎˆŒŽŒˆ	Ð\ØZ[ÜÝ[›ÜË^	ÎˆŒŽŒˆ	Ð\ØZ[ÝÚ[ŒÌ‹X\›M	ÎˆŒŽŒˆ	Ð\ØZ[ÝÚ[ŒÌ‹ZXLÌ‰ÎˆŒŽŒˆ	Ð\ØZ[ÝÚ[ŒÌ‹^	ÎˆŒŽŒ‚ˆ\ØØ[YPËŒ‹ŒˆßB‚ˆ\ØØ\KZ[KŒŒÎˆßB‚ˆ\ØØ\K\Ýš[™Ë\™YÙ^ŒŒˆßB‚ˆ\Û[XÛÛ™šYË[™^M‹ŒË
+\\ØÜš\Y\Û[Ü\œÙ\NKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊJJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð™^Ù\Û[\YÚ[‹[™^	ÎˆM‹ŒË
+\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJBˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\Û[Z[\Ü\™\ÛÛ™\‹[›ÙNˆŒËŒL
+Ý\ÜËXÛÛÜLŒ‹ŒŠBˆ\Û[Z[\Ü\™\ÛÛ™\‹]\\ØÜš\ˆËŒLŒJ\Û[\YÚ[‹Z[\Ü‹ŒÌ‹Œ
+J\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\Û[\YÚ[‹Z[\Üˆ‹ŒÌ‹Œ
+\\ØÜš\Y\Û[Ü\œÙ\NKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊJJ\Û[Z[\Ü\™\ÛÛ™\‹]\\ØÜš\ËŒLŒJJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\Û[\YÚ[‹ZœÞXLL^Nˆ‹ŒLŒŠ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJBˆ\Û[\YÚ[‹\™XXÝˆËŒÍËJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJBˆ\Û[\YÚ[‹\™XXÝZÛÚÜÎˆËŒKŒJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠBˆÛØ˜[ÎˆM‹Œˆ\\ØÜš\Y\Û[ˆNKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ\\ØÜš\ˆKŽKŒÂˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆH	Ð\\ØÜš\Y\Û[Ü\œÙ\‰ÂˆH\Û[Z[\Ü\™\ÛÛ™\‹]ÙXœXÚÂˆH\Û[\YÚ[‹Z[\Ü^ˆHÝ\ÜËXÛÛÜ‚‚ˆ\Û[Z[\Ü\™\ÛÛ™\‹[›ÙPŒËŒL
+Ý\ÜËXÛÛÜLŒ‹ŒŠN‚ˆ\[™[˜ÚY\Î‚ˆXYÎˆËŒ‹ÊÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\ËXÛÜ™K[[Ù[Nˆ‹ŒM‹Œ‚ˆ™\ÛÛ™Nˆ‹ŒŒ[™^Âˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ\Û[Z[\Ü\™\ÛÛ™\‹]\\ØÜš\ËŒLŒJ\Û[\YÚ[‹Z[\Ü‹ŒÌ‹Œ
+J\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð›ÛYš[Ú\ËXÛÜ™K[[Ù[IÎˆKŒŒÎBˆXYÎˆŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆÙ]]ØÛÛ™šYÎˆŒMŒˆ\ËX[‹[[Ù[Nˆ‹ŒŒˆÝX›KZ\ÚˆŒBˆ[žYÛØ˜žNˆŒ‹ŒM‚ˆ[œœË\™\ÛÛ™\ŽˆKŒLKŒBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ\Û[\YÚ[‹Z[\Üˆ‹ŒÌ‹Œ
+\\ØÜš\Y\Û[Ü\œÙ\NKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊJJ\Û[Z[\Ü\™\ÛÛ™\‹]\\ØÜš\ËŒLŒJJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ\Û[[[Ù[K]][Ð‹ŒL‹ŒJ\\ØÜš\Y\Û[Ü\œÙ\NKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊJJ\Û[Z[\Ü\™\ÛÛ™\‹[›ÙPŒËŒL
+Ý\ÜËXÛÛÜLŒ‹ŒŠJJ\Û[Z[\Ü\™\ÛÛ™\‹]\\ØÜš\ËŒLŒJJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠN‚ˆ\[™[˜ÚY\Î‚ˆXYÎˆËŒ‹ÊÝ\ÜËXÛÛÜLŒ‹ŒŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ØÜš\Y\Û[Ü\œÙ\‰ÎˆNKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\Û[Z[\Ü\™\ÛÛ™\‹[›ÙNˆŒËŒL
+Ý\ÜËXÛÛÜLŒ‹ŒŠBˆ\Û[Z[\Ü\™\ÛÛ™\‹]\\ØÜš\ˆËŒLŒJ\Û[\YÚ[‹Z[\Ü‹ŒÌ‹Œ
+J\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ\Û[\YÚ[‹Z[\Ü‹ŒÌ‹Œ
+\\ØÜš\Y\Û[Ü\œÙ\NKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊJJ\Û[Z[\Ü\™\ÛÛ™\‹]\\ØÜš\ËŒLŒJJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠN‚ˆ\[™[˜ÚY\Î‚ˆ	ÐØ[ËÜØØÉÎˆKŒKŒˆ\œ˜^KZ[˜ÛY\ÎˆËŒKŽBˆ\œ˜^Kœ›ÝÝ\K™š[™\Ý[™^ˆKŒ‹‚ˆ\œ˜^Kœ›ÝÝ\K™›]ˆKŒËŒÂˆ\œ˜^Kœ›ÝÝ\K™›]X\ˆKŒËŒÂˆXYÎˆËŒ‹ÊÝ\ÜËXÛÛÜLŒ‹ŒŠBˆØÝš[™Nˆ‹ŒKŒˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\Û[Z[\Ü\™\ÛÛ™\‹[›ÙNˆŒËŒL
+Ý\ÜËXÛÛÜLŒ‹ŒŠBˆ\Û[[[Ù[K]][Îˆ‹ŒL‹ŒJ\\ØÜš\Y\Û[Ü\œÙ\NKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊJJ\Û[Z[\Ü\™\ÛÛ™\‹[›ÙPŒËŒL
+Ý\ÜËXÛÛÜLŒ‹ŒŠJJ\Û[Z[\Ü\™\ÛÛ™\‹]\\ØÜš\ËŒLŒJJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\ÛÝÛŽˆ‹ŒŒÂˆ\ËXÛÜ™K[[Ù[Nˆ‹ŒM‹Œ‚ˆ\ËYÛØŽˆŒŒÂˆZ[š[X]ÚˆËŒKBˆØš™XÝ™œ›ÛY[šY\Îˆ‹ŒŽˆØš™XÝ™Ü›Ý\žNˆKŒŒÂˆØš™XÝ˜[Y\ÎˆKŒ‹ŒBˆÙ[]™\Žˆ‹ŒËŒBˆÝš[™Ëœ›ÝÝ\Kš[Y[™ˆKŒŽBˆØÛÛ™šYË\]ÎˆËŒMKŒˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ØÜš\Y\Û[Ü\œÙ\‰ÎˆNKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆH\Û[Z[\Ü\™\ÛÛ™\‹]\\ØÜš\ˆH\Û[Z[\Ü\™\ÛÛ™\‹]ÙXœXÚÂˆHÝ\ÜËXÛÛÜ‚‚ˆ\Û[\YÚ[‹ZœÞXLL^P‹ŒLŒŠ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJN‚ˆ\[™[˜ÚY\Î‚ˆ\šXK\]Y\žNˆKŒËŒ‚ˆ\œ˜^KZ[˜ÛY\ÎˆËŒKŽBˆ\œ˜^Kœ›ÝÝ\K™›]X\ˆKŒËŒÂˆ\Ý]\\ËY›ÝÎˆŒŽˆ^KXÛÜ™NˆŒLKˆ^Øš™XÝ\]Y\žNˆŒKŒˆ[Y\˜]K[]™[œÚZ[ŽˆKŒŽˆ[[ÚšK\™YÙ^ˆKŒ‹Œ‚ˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\ÛÝÛŽˆ‹ŒŒÂˆœÞX\Ý]][ÎˆËŒËBˆ[™ÝXYÙK]YÜÎˆKŒŽBˆZ[š[X]ÚˆËŒKBˆØš™XÝ™œ›ÛY[šY\Îˆ‹ŒŽˆØY™K\™YÙ^]\ÝˆKŒKŒˆÝš[™Ëœ›ÝÝ\Kš[˜ÛY\Îˆ‹ŒŒB‚ˆ\Û[\YÚ[‹\™XXÝZÛÚÜÐËŒKŒJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜X™[ØÛÜ™IÎˆËŒŽKŒ
+Ý\ÜËXÛÛÜLŒ‹ŒŠBˆ	Ð˜X™[Ü\œÙ\‰ÎˆËŒŽKŒÂˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\›Y\Ë\\œÙ\ŽˆŒKŒBˆ›ÙˆËŒKÍ‚ˆ›Ù]˜[Y][Û‹Y\œ›ÜŽˆŒŒŠ›ÙËŒKÍŠBˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ\Û[\YÚ[‹\™XXÝËŒÍËJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJN‚ˆ\[™[˜ÚY\Î‚ˆ\œ˜^KZ[˜ÛY\ÎˆËŒKŽBˆ\œ˜^Kœ›ÝÝ\K™š[™\ÝˆKŒ‹Bˆ\œ˜^Kœ›ÝÝ\K™›]X\ˆKŒËŒÂˆ\œ˜^Kœ›ÝÝ\KÜÛÜYˆKŒKˆØÝš[™Nˆ‹ŒKŒˆ\ËZ]\˜]Ü‹Z[\œÎˆKŒËŒ‚ˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\Ý˜]™\œÙNˆKŒËŒˆ\ÛÝÛŽˆ‹ŒŒÂˆœÞX\Ý]][ÎˆËŒËBˆZ[š[X]ÚˆËŒKBˆØš™XÝ™[šY\ÎˆKŒKŽBˆØš™XÝ™œ›ÛY[šY\Îˆ‹ŒŽˆØš™XÝ˜[Y\ÎˆKŒ‹ŒBˆ›Ü]\\ÎˆMKŽŒBˆ™\ÛÛ™Nˆ‹ŒŒ[™^ÂˆÙ[]™\Žˆ‹ŒËŒBˆÝš[™Ëœ›ÝÝ\K›X]Ú[ˆŒŒL‚ˆÝš[™Ëœ›ÝÝ\Kœ™\X]ˆKŒŒ‚ˆ\Û[\ØÛÜPKŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆ\Ü™XÝ\œÙNˆŒËŒˆ\Ý˜]™\œÙNˆŒËŒ‚ˆ\Û[\ØÛÜPŒ‚ˆ\[™[˜ÚY\Î‚ˆ\Ü™XÝ\œÙNˆŒËŒˆ\Ý˜]™\œÙNˆKŒËŒ‚ˆ\Û[]š\Ú]Ü‹ZÙ^\ÐËŒÎˆßB‚ˆ\Û[]š\Ú]Ü‹ZÙ^\ÐŒ‹ŒNˆßB‚ˆ\Û[]š\Ú]Ü‹ZÙ^\ÐKŒŒNˆßB‚ˆ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\Û[XÛÛ[][š]KÙ\Û[]][ÉÎˆŽKŒJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJBˆ	Ð\Û[XÛÛ[][š]KÜ™YÙ^	ÎˆŒL‹Œ‚ˆ	Ð\Û[ØÛÛ™šYËX\œ˜^IÎˆŒŒKŒŠÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ	Ð\Û[ØÛÛ™šYËZ[\œÉÎˆŒ‚ˆ	Ð\Û[ØÛÜ™IÎˆŒMËŒˆ	Ð\Û[Ù\Û[˜ÉÎˆËŒËJÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ	Ð\Û[ÚœÉÎˆKŒÎKˆ	Ð\Û[ÜYÚ[‹ZÚ]	ÎˆŒBˆ	Ð[X[™œËÛ›ÙIÎˆŒM‹Žˆ	Ð[X[ÚØÛÙ\ËÛ[Ù[KZ[\Ü\‰ÎˆKŒŒBˆ	Ð[X[ÚØÛÙ\ËÜ™]žIÎˆŒÂˆ	Ð\\ËÙ\Ý™YIÎˆKŒŽBˆZŽˆ‹ŒMKŒˆÚ[ÎˆŒKŒ‚ˆÜ›ÜÜË\Ü]ÛŽˆËŒ‚ˆXYÎˆŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\ØØ\K\Ýš[™Ë\™YÙ^ˆŒŒˆ\Û[\ØÛÜNˆŒˆ\Û[]š\Ú]Ü‹ZÙ^\ÎˆŒ‹ŒBˆ\Ü™YNˆLŒˆ\Ü]Y\žNˆKËŒˆ\Ý][Îˆ‹ŒŒÂˆ˜\ÝYY\Y\]X[ˆËŒKŒÂˆš[KY[žKXØXÚNˆŒŒˆš[™]\ˆKŒŒˆÛØ‹\\™[ˆ‹ŒŒ‚ˆYÛ›Ü™NˆKŒËŒ‚ˆ[]\›]\š\ÚˆŒKˆ\ËYÛØŽˆŒŒÂˆœÛÛ‹\ÝX›K\Ýš[™ÚYžK]Ú]Ý]ZœÛÛšYžNˆKŒŒBˆÙ\Ú›Y\™ÙNˆ‹Œ‚ˆZ[š[X]ÚˆËŒKBˆ˜]\˜[XÛÛ\\™NˆKŒˆÜ[Û˜]ÜŽˆŽKˆÜ[Û˜[\[™[˜ÚY\Î‚ˆš]Nˆ‹ËŒˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ\Ü™YPLŒ‚ˆ\[™[˜ÚY\Î‚ˆXÛÜ›ŽˆŒM‹ŒˆXÛÜ›‹ZœÞˆKŒËŒŠXÛÜ›ŒM‹Œ
+Bˆ\Û[]š\Ú]Ü‹ZÙ^\ÎˆŒ‹ŒB‚ˆ\Ü]Y\žPKËŒ‚ˆ\[™[˜ÚY\Î‚ˆ\Ý˜]™\œÙNˆKŒËŒ‚ˆ\Ü™XÝ\œÙPŒËŒ‚ˆ\[™[˜ÚY\Î‚ˆ\Ý˜]™\œÙNˆKŒËŒ‚ˆ\Ý˜]™\œÙPŒËŒˆßB‚ˆ\Ý˜]™\œÙPKŒËŒˆßB‚ˆ\Ý™YK]Ø[Ù\ËŒŒÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÙ\Ý™YIÎˆKŒŽB‚ˆ\Ý][Ð‹ŒŒÎˆßB‚ˆ]™[[Z]\ŒÐKŒˆßB‚ˆ]™[ÐËŒËŒˆßB‚ˆ˜\ÝYY\Y\]X[ËŒKŒÎˆßB‚ˆ˜\ÝYÛØËŒËŒN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð›Ù[X‹ÙœËœÝ]	Îˆ‹ŒBˆ	Ð›Ù[X‹ÙœËØ[ÉÎˆKŒ‹ŽˆÛØ‹\\™[ˆKŒKŒ‚ˆY\™ÙLŽˆKŒBˆZXÜ›ÛX]ÚˆŒŽ‚ˆ˜\ÝYÛØËŒËŒÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð›Ù[X‹ÙœËœÝ]	Îˆ‹ŒBˆ	Ð›Ù[X‹ÙœËØ[ÉÎˆKŒ‹ŽˆÛØ‹\\™[ˆKŒKŒ‚ˆY\™ÙLŽˆKŒBˆZXÜ›ÛX]ÚˆŒŽ‚ˆ˜\ÝZœÛÛ‹\ÝX›K\Ýš[™ÚYžP‹ŒKŒˆßB‚ˆ˜\Ý[]™[œÚZ[‹ŒŽˆßB‚ˆ˜\Ý]\šPËŒKÎˆßB‚ˆ˜\ÝPKŒŒŒN‚ˆ\[™[˜ÚY\Î‚ˆ™]\ÚYžNˆKŒKŒ‚ˆ™\‹KŒ
+XÛÛX]ÚŒ
+N‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆXÛÛX]ÚˆŒ‚ˆ™›]PËˆßB‚ˆš[KY[žKXØXÚPŒŒ‚ˆ\[™[˜ÚY\Î‚ˆ›]XØXÚNˆŒŒB‚ˆš[\˜[™ÙPËŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆË\™YÙ^\˜[™ÙNˆKŒŒB‚ˆš[™]\KŒŒ‚ˆ\[™[˜ÚY\Î‚ˆØØ]K\]ˆ‹ŒŒˆ]Y^\ÝÎˆŒŒ‚ˆ›]XØXÚPŒŒN‚ˆ\[™[˜ÚY\Î‚ˆ›]YˆËŒ‚ˆÙ^]ŽˆK‚ˆ›]YËŒŽˆßB‚ˆ›Ü‹YXXÚŒËN‚ˆ\[™[˜ÚY\Î‚ˆ\ËXØ[X›NˆKŒ‹Â‚ˆœÙ]™[Ð‹ŒËŒÎ‚ˆÜ[Û˜[ˆYB‚ˆ[˜Ý[Û‹Xš[™KŒKŒŽˆßB‚ˆ[˜Ý[Û‹œ›ÝÝ\K›˜[YPKŒKŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ[˜Ý[ÛœËZ]™K[˜[Y\ÎˆKŒ‹ŒÂˆ\ÛÝÛŽˆ‹ŒŒÂˆ\ËXØ[X›NˆKŒ‹Â‚ˆ[˜Ý[ÛœËZ]™K[˜[Y\ÐKŒ‹ŒÎˆßB‚ˆÙ[™\˜]Ü‹Y[˜Ý[Û‹ŒŒNˆßB‚ˆÙ[œÞ[˜ÐKŒŒX™]KŒŽˆßB‚ˆÙ]Z[š[œÚXÐKŒËŒ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™X\KZ[\œÎˆKŒŒ‚ˆ\ËYYš[™K\›Ü\NˆKŒŒBˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒBˆ[˜Ý[Û‹Xš[™ˆKŒKŒ‚ˆÙ]\›ÝÎˆKŒŒBˆÛÜˆKŒ‹Œˆ\Ë\Þ[X›ÛÎˆKŒKŒˆ\ÛÝÛŽˆ‹ŒŒÂˆX]Z[š[œÚXÜÎˆKŒKŒ‚ˆÙ][›Û˜ÙPKŒŒNˆßB‚ˆÙ]\›ÝÐKŒŒN‚ˆ\[™[˜ÚY\Î‚ˆ[™\‹\›ÝÎˆKŒŒBˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒB‚ˆÙ]\Þ[X›ÛY\ØÜš\[ÛKŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\ËY\œ›ÜœÎˆKŒËŒˆÙ]Z[š[œÚXÎˆKŒËŒ‚ˆÙ]]ØÛÛ™šYÐŒMŒ‚ˆ\[™[˜ÚY\Î‚ˆ™\ÛÛ™K\ÙË[X\ÎˆKŒŒ‚ˆÛØ‹\\™[KŒKŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ\ËYÛØŽˆŒŒÂ‚ˆÛØ‹\\™[‹ŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ\ËYÛØŽˆŒŒÂ‚ˆÛØ‹]Ë\™YÙ^ŒNˆßB‚ˆÛØ˜[ÐMŒŒˆßB‚ˆÛØ˜[ÐM‹ŒˆßB‚ˆÛØ˜[\ÐKŒ‚ˆ\[™[˜ÚY\Î‚ˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆÛÜˆKŒ‹Œ‚ˆÛÜKŒ‹ŒˆßB‚ˆÜ˜XÙY[YœÐŒ‹ŒLNˆßB‚ˆ\ËXšYÚ[ÐKŒKŒˆßB‚ˆ\ËY›YÐŒŒˆßB‚ˆ\Ë\›Ü\KY\ØÜš\ÜœÐKŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ\ËYYš[™K\›Ü\NˆKŒŒB‚ˆ\Ë\›ÝÐKŒ‹Œ‚ˆ\[™[˜ÚY\Î‚ˆ[™\‹\›ÝÎˆKŒŒB‚ˆ\Ë\Þ[X›ÛÐKŒKŒˆßB‚ˆ\Ë]ÜÝš[™ÝYÐKŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ\Ë\Þ[X›ÛÎˆKŒKŒ‚ˆ\ÛÝÛ‹ŒŒÎ‚ˆ\[™[˜ÚY\Î‚ˆ[˜Ý[Û‹Xš[™ˆKŒKŒ‚‚ˆ\›Y\ËY\Ý™YPŒKŒNˆßB‚ˆ\›Y\Ë\\œÙ\ŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆ\›Y\ËY\Ý™YNˆŒKŒB‚ˆ^\™ØŒËŒˆßB‚ˆYÛ›Ü™PKŒËŒŽˆßB‚ˆYÛ›Ü™PËŒNˆßB‚ˆ[XYÙK\Ú^™P‹ŒŒŽˆßB‚ˆ[[Y\LŒ‹ŒˆßB‚ˆ[[Y\LKŒKŒMŽˆßB‚ˆ[\ÜYœ™\ÚËŒËŒN‚ˆ\[™[˜ÚY\Î‚ˆ\™[[[Ù[NˆKŒŒBˆ™\ÛÛ™KYœ›ÛNˆŒŒ‚ˆ[]\›]\š\ÚŒKˆßB‚ˆ[œ][ÝKŒŠ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠB‚ˆ[\›˜[\ÛÝKŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆ\ÛÝÛŽˆ‹ŒŒÂˆÚYKXÚ[›™[ˆKŒKŒ‚ˆ[\››X\‹ŒŒÎˆßB‚ˆ\Y‹šœÐ‹ŒˆßB‚ˆ\ËX\œ˜^KXY™™\ËŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆÙ]Z[š[œÚXÎˆKŒËŒ‚ˆ\ËX\Þ[˜ËY[˜Ý[Û‹ŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆ\Þ[˜ËY[˜Ý[ÛŽˆKŒŒˆØ[X›Ý[™ˆKŒˆÙ]\›ÝÎˆKŒŒBˆ\Ë]ÜÝš[™ÝYÎˆKŒŒ‚ˆØY™K\™YÙ^]\ÝˆKŒKŒ‚ˆ\ËXšYÚ[KŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆ\ËXšYÚ[ÎˆKŒKŒ‚ˆ\ËX›ÛÛX[‹[Øš™XÝKŒ‹ŒŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\Ë]ÜÝš[™ÝYÎˆKŒŒ‚‚ˆ\ËX[‹[[Ù[P‹ŒŒ‚ˆ\[™[˜ÚY\Î‚ˆÙ[]™\ŽˆËŽB‚ˆ\ËXØ[X›PKŒ‹ÎˆßB‚ˆ\ËXÛÜ™K[[Ù[P‹ŒM‹ŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ\ÛÝÛŽˆ‹ŒŒÂ‚ˆ\ËY]K]šY]ÐKŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆÙ]Z[š[œÚXÎˆKŒËŒˆ\Ë]\YX\œ˜^NˆKŒKŒMB‚ˆ\ËY]K[Øš™XÝKŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\Ë]ÜÝš[™ÝYÎˆKŒŒ‚‚ˆ\ËY^ÛØ‹ŒKŒNˆßB‚ˆ\ËYš[˜[^˜][Ûœ™YÚ\ÝžPKŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒ‚ˆ\ËYÙ[™\˜]Ü‹Y[˜Ý[ÛKŒKŒŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆÙ[™\˜]Ü‹Y[˜Ý[ÛŽˆ‹ŒŒBˆÙ]\›ÝÎˆKŒŒBˆ\Ë]ÜÝš[™ÝYÎˆKŒŒ‚ˆØY™K\™YÙ^]\ÝˆKŒKŒ‚ˆ\ËYÛØŒŒÎ‚ˆ\[™[˜ÚY\Î‚ˆ\ËY^ÛØŽˆ‹ŒKŒB‚ˆ\Ë[X\‹ŒŒÎˆßB‚ˆ\Ë[™YØ]]™K^™\›Ð‹ŒŒÎˆßB‚ˆ\Ë[[X™\‹[Øš™XÝKŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\Ë]ÜÝš[™ÝYÎˆKŒŒ‚‚ˆ\Ë[[X™\ËŒŒˆßB‚ˆ\Ë\™YÙ^KŒ‹ŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆÛÜˆKŒ‹Œˆ\Ë]ÜÝš[™ÝYÎˆKŒŒ‚ˆ\ÛÝÛŽˆ‹ŒŒÂ‚ˆ\Ë\Ù]‹ŒŒÎˆßB‚ˆ\Ë\Ú\™YX\œ˜^KXY™™\KŒ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒ‚ˆ\Ë\Ýš[™ÐKŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\Ë]ÜÝš[™ÝYÎˆKŒŒ‚‚ˆ\Ë\Þ[X›ÛKŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\Ë\Þ[X›ÛÎˆKŒKŒˆØY™K\™YÙ^]\ÝˆKŒKŒ‚ˆ\Ë]\YX\œ˜^PKŒKŒMN‚ˆ\[™[˜ÚY\Î‚ˆÚXÚ]\YX\œ˜^NˆKŒKŒŒ‚ˆ\Ë]ÙXZÛX\‹ŒŒŽˆßB‚ˆ\Ë]ÙXZÜ™YKŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒ‚ˆ\Ë]ÙXZÜÙ]‹Œ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆÙ]Z[š[œÚXÎˆKŒËŒ‚ˆ\Ø\œ˜^P‹ŒNˆßB‚ˆ\Ù^P‹ŒŒˆßB‚ˆ]\˜]Ü‹œ›ÝÝ\PKŒKN‚ˆ\[™[˜ÚY\Î‚ˆYš[™KY]K\›Ü\NˆKŒKˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒBˆÙ]Z[š[œÚXÎˆKŒËŒˆÙ]\›ÝÎˆKŒŒBˆ\Ë\Þ[X›ÛÎˆKŒKŒˆÙ]Y[˜Ý[Û‹[˜[YNˆ‹ŒŒ‚‚ˆ™\Ý]ÛÜšÙ\ËKŒN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÛ›ÙIÎˆŒ‹ŒNKŒNBˆY\™ÙK\Ý™X[Nˆ‹ŒŒˆÝ\ÜËXÛÛÜŽˆŒKŒB‚ˆš]P‹ËŒˆßB‚ˆœË]ÚÙ[œÐŒŒˆßB‚ˆœË]ÚÙ[œÐKŒŒNˆßB‚ˆœË^X[[ŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆ\™Ü\œÙNˆ‹ŒŒB‚ˆœÙ\ØÐËŒKŒˆßB‚ˆœÛÛ‹XY™™\ËŒŒNˆßB‚ˆœÛÛ‹\ØÚ[XK]˜]™\œÙPŒNˆßB‚ˆœÛÛ‹\ØÚ[XK]˜]™\œÙPKŒŒˆßB‚ˆœÛÛ‹\ÝX›K\Ýš[™ÚYžK]Ú]Ý]ZœÛÛšYžPKŒŒNˆßB‚ˆœÛÛPKŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆZ[š[Z\ÝˆKŒ‹Ž‚ˆœÛÛP‹Œ‹ŒÎˆßB‚ˆœÞX\Ý]][ÐËŒËN‚ˆ\[™[˜ÚY\Î‚ˆ\œ˜^KZ[˜ÛY\ÎˆËŒKŽBˆ\œ˜^Kœ›ÝÝ\K™›]ˆKŒËŒÂˆØš™XÝ˜\ÜÚYÛŽˆŒKÂˆØš™XÝ˜[Y\ÎˆKŒ‹ŒB‚ˆÙ^]K‚ˆ\[™[˜ÚY\Î‚ˆœÛÛ‹XY™™\ŽˆËŒŒB‚ˆÛ]\ŒKNˆßB‚ˆ[™ÝXYÙK\ÝXYË\™YÚ\ÝžPŒËŒŒÎˆßB‚ˆ[™ÝXYÙK]YÜÐKŒŽN‚ˆ\[™[˜ÚY\Î‚ˆ[™ÝXYÙK\ÝXYË\™YÚ\ÝžNˆŒËŒŒÂ‚ˆ]›ŒN‚ˆ\[™[˜ÚY\Î‚ˆ™[YK[ÎˆKŒ‹ŒBˆ\KXÚXÚÎˆŒ‚ˆYÚš[™ØÜÜËX[™›ÚYX\›MKŒÌKŒN‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜËX[™›ÚYX\›MKŒÌ‹Œ‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜËY\Ú[‹X\›MKŒÌKŒN‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜËY\Ú[‹X\›MKŒÌ‹Œ‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜËY\Ú[‹^KŒÌKŒN‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜËY\Ú[‹^KŒÌ‹Œ‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜËYœ™YXœÙ^KŒÌKŒN‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜËYœ™YXœÙ^KŒÌ‹Œ‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË[[^X\›KYÛYXXšZKŒÌKŒN‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË[[^X\›KYÛYXXšZKŒÌ‹Œ‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË[[^X\›MYÛPKŒÌKŒN‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË[[^X\›MYÛPKŒÌ‹Œ‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË[[^X\›M[]\ÛKŒÌKŒN‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË[[^X\›M[]\ÛKŒÌ‹Œ‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË[[^^YÛPKŒÌKŒN‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË[[^^YÛPKŒÌ‹Œ‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË[[^^[]\ÛKŒÌKŒN‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË[[^^[]\ÛKŒÌ‹Œ‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË]Ú[ŒÌ‹X\›M[\Ý˜ÐKŒÌKŒN‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË]Ú[ŒÌ‹X\›M[\Ý˜ÐKŒÌ‹Œ‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË]Ú[ŒÌ‹^[\Ý˜ÐKŒÌKŒN‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜË]Ú[ŒÌ‹^[\Ý˜ÐKŒÌ‹Œ‚ˆÜ[Û˜[ˆYB‚ˆYÚš[™ØÜÜÐKŒÌKŒN‚ˆ\[™[˜ÚY\Î‚ˆ]XÝ[X˜Îˆ‹ŒKŒ‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆYÚš[™ØÜÜËX[™›ÚYX\›MˆKŒÌKŒBˆYÚš[™ØÜÜËY\Ú[‹X\›MˆKŒÌKŒBˆYÚš[™ØÜÜËY\Ú[‹^ˆKŒÌKŒBˆYÚš[™ØÜÜËYœ™YXœÙ^ˆKŒÌKŒBˆYÚš[™ØÜÜË[[^X\›KYÛYXXšZŽˆKŒÌKŒBˆYÚš[™ØÜÜË[[^X\›MYÛNˆKŒÌKŒBˆYÚš[™ØÜÜË[[^X\›M[]\ÛˆKŒÌKŒBˆYÚš[™ØÜÜË[[^^YÛNˆKŒÌKŒBˆYÚš[™ØÜÜË[[^^[]\ÛˆKŒÌKŒBˆYÚš[™ØÜÜË]Ú[ŒÌ‹X\›M[\Ý˜ÎˆKŒÌKŒBˆYÚš[™ØÜÜË]Ú[ŒÌ‹^[\Ý˜ÎˆKŒÌKŒB‚ˆYÚš[™ØÜÜÐKŒÌ‹Œ‚ˆ\[™[˜ÚY\Î‚ˆ]XÝ[X˜Îˆ‹ŒKŒ‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆYÚš[™ØÜÜËX[™›ÚYX\›MˆKŒÌ‹ŒˆYÚš[™ØÜÜËY\Ú[‹X\›MˆKŒÌ‹ŒˆYÚš[™ØÜÜËY\Ú[‹^ˆKŒÌ‹ŒˆYÚš[™ØÜÜËYœ™YXœÙ^ˆKŒÌ‹ŒˆYÚš[™ØÜÜË[[^X\›KYÛYXXšZŽˆKŒÌ‹ŒˆYÚš[™ØÜÜË[[^X\›MYÛNˆKŒÌ‹ŒˆYÚš[™ØÜÜË[[^X\›M[]\ÛˆKŒÌ‹ŒˆYÚš[™ØÜÜË[[^^YÛNˆKŒÌ‹ŒˆYÚš[™ØÜÜË[[^^[]\ÛˆKŒÌ‹ŒˆYÚš[™ØÜÜË]Ú[ŒÌ‹X\›M[\Ý˜ÎˆKŒÌ‹ŒˆYÚš[™ØÜÜË]Ú[ŒÌ‹^[\Ý˜ÎˆKŒÌ‹Œ‚ˆ[™Xœ™XZÐKŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆ˜\ÙMZœÎˆŒŽˆ[šXÛÙK]šYNˆ‹ŒŒ‚ˆØY\‹\[›™\ŒËŒŽˆßB‚ˆØØ]K\]‹ŒŒ‚ˆ\[™[˜ÚY\Î‚ˆ[ØØ]NˆKŒŒ‚ˆÙ\Ú›Y\™ÙP‹ŒŽˆßB‚ˆÛÜÙKY[šYžPKŒ‚ˆ\[™[˜ÚY\Î‚ˆœË]ÚÙ[œÎˆŒŒ‚ˆKXØXÚPKŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆX[\ÝˆËŒKŒB‚ˆXÚYK\™XXÝKŒÌKŒ
+™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚‚ˆXYÚXË\Ýš[™ÐŒÌŒŒN‚ˆ\[™[˜ÚY\Î‚ˆ	ÐœšYÙ]Ù[ÜÛÝ\˜Ù[X\XÛÙXÉÎˆKKB‚ˆX]Z[š[œÚXÜÐKŒKŒˆßB‚ˆY\™ÙK\Ý™X[P‹ŒŒˆßB‚ˆY\™ÙLKŒNˆßB‚ˆZXÜ›ÛX]ÚŒŽ‚ˆ\[™[˜ÚY\Î‚ˆœ˜XÙ\ÎˆËŒŒÂˆXÛÛX]Úˆ‹ŒËŒ‚‚ˆZ[YKYKMŒˆßB‚ˆZ[šY›\™PŒŒŒLMKŒ
+\\ËÛ›ÙPŒ‹ŒNKŒNJN‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÜÜÝÛÙKÜÛÝ\˜ÙK[X\\Ý\Ü	ÎˆŽŒBˆÚ\œˆŒÍK
+\\ËÛ›ÙPŒ‹ŒNKŒNJBˆ[™XÚNˆËŒŽˆÛÜšÙ\™ˆKŒŒŒLMKŒBˆÜÎˆŒNŒˆ[ÝXÚˆŒKŒX™]KŒLˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆH	Ð\\ËÛ›ÙIÂˆHY™™\][ˆH]‹N]˜[Y]B‚ˆZ[š[X]ÚLŒ‹N‚ˆ\[™[˜ÚY\Î‚ˆœ˜XÙKY^[œÚ[ÛŽˆKŒ‚‚ˆZ[š[X]ÚËŒKN‚ˆ\[™[˜ÚY\Î‚ˆœ˜XÙKY^[œÚ[ÛŽˆKŒKŒM‚ˆZ[š[Z\ÝKŒ‹ŽˆßB‚ˆ\Ð‹ŒKŒÎˆßB‚ˆ˜[›ÚYËŒËŒNˆßB‚ˆ˜\K\ÜÝ[œÝ[ŒËˆßB‚ˆ˜]\˜[XÛÛ\\™PKŒˆßB‚ˆ™[ËX\Þ[˜Ð‹‹ŒŽˆßB‚ˆ™^][Y\ÐŠ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠB‚ˆ™^M‹ŒË
+˜X™[ØÛÜ™PËŒŽKŒ
+Ý\ÜËXÛÛÜLŒ‹ŒŠJJ\\ËÛ›ÙPŒ‹ŒNKŒNJJ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð™^Ù[‰ÎˆM‹ŒËˆ	ÐÝØËÚ[\œÉÎˆKŒŒÂˆ˜\Ù[[™KXœ›ÝÜÙ\‹[X\[™Îˆ‹ŒLŒÌˆØ[š]\ÙK[]NˆKŒŒÌMÎLÂˆÜÝÜÜÎˆKŒŒÂˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÝ[YZœÞˆKŒKŠ˜X™[ØÛÜ™PËŒŽKŒ
+Ý\ÜËXÛÛÜLŒ‹ŒŠJJ™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð™^ÜÝØËY\Ú[‹X\›M	ÎˆM‹ŒËˆ	Ð™^ÜÝØËY\Ú[‹^	ÎˆM‹ŒËˆ	Ð™^ÜÝØË[[^X\›MYÛIÎˆM‹ŒËˆ	Ð™^ÜÝØË[[^X\›M[]\Û	ÎˆM‹ŒËˆ	Ð™^ÜÝØË[[^^YÛIÎˆM‹ŒËˆ	Ð™^ÜÝØË[[^^[]\Û	ÎˆM‹ŒËˆ	Ð™^ÜÝØË]Ú[ŒÌ‹X\›M[\Ý˜ÉÎˆM‹ŒËˆ	Ð™^ÜÝØË]Ú[ŒÌ‹^[\Ý˜ÉÎˆM‹ŒËˆÚ\œˆŒÍK
+\\ËÛ›ÙPŒ‹ŒNKŒNJBˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆH	Ð˜X™[ØÛÜ™IÂˆH	Ð\\ËÛ›ÙIÂˆH˜X™[\YÚ[‹[XXÜ›ÜÂ‚ˆ›ÙKY^ÜËZ[™›ÐK‹Œ‚ˆ\[™[˜ÚY\Î‚ˆ\œ˜^Kœ›ÝÝ\K™›]X\ˆKŒËŒÂˆ\ËY\œ›ÜœÎˆKŒËŒˆØš™XÝ™[šY\ÎˆKŒKŽBˆÙ[]™\Žˆ‹ŒËŒB‚ˆ›ÙK\™[X\Ù\Ð‹ŒˆßB‚ˆØš™XÝX\ÜÚYÛŒKŒNˆßB‚ˆØš™XÝZ[œÜXÝKŒLËˆßB‚ˆØš™XÝZÙ^\ÐKŒKŒNˆßB‚ˆØš™XÝ˜\ÜÚYÛŒKÎ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒBˆ\Ë\Þ[X›ÛÎˆKŒKŒˆØš™XÝZÙ^\ÎˆKŒKŒB‚ˆØš™XÝ™[šY\ÐKŒKŽN‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒB‚ˆØš™XÝ™œ›ÛY[šY\Ð‹ŒŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒB‚ˆØš™XÝ™Ü›Ý\žPKŒŒÎ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚‚ˆØš™XÝ˜[Y\ÐKŒ‹ŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒB‚ˆÜ[Û˜]ÜŽK‚ˆ\[™[˜ÚY\Î‚ˆY\Z\ÎˆŒKˆ˜\Ý[]™[œÚZ[Žˆ‹Œ‚ˆ]›ŽˆŒBˆ™[YK[ÎˆKŒ‹ŒBˆ\KXÚXÚÎˆŒˆÛÜ™]Ü˜\ˆKŒ‹B‚ˆÝÛ‹ZÙ^\ÐKŒŒN‚ˆ\[™[˜ÚY\Î‚ˆÙ]Z[š[œÚXÎˆKŒËŒˆØš™XÝZÙ^\ÎˆKŒKŒBˆØY™K\\ÚX\NˆKŒŒ‚ˆ[[Z]ËŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆ[ØÝË\]Y]YNˆŒKŒ‚ˆ[ØØ]PKŒŒ‚ˆ\[™[˜ÚY\Î‚ˆ[[Z]ˆËŒKŒ‚ˆZÛÐŒ‹ŽNˆßB‚ˆ\™[[[Ù[PKŒŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[Ú]\ÎˆËŒKŒ‚ˆ\œÙKXÜÜËXÛÛÜŒ‹ŒN‚ˆ\[™[˜ÚY\Î‚ˆÛÛÜ‹[˜[YNˆKŒKˆ^\™ØŽˆŒËŒ‚ˆ]Y^\ÝÐŒŒˆßB‚ˆ]ZÙ^PËŒKŒNˆßB‚ˆ]\\œÙPKŒÎˆßB‚ˆ]]Ë\™YÙ^‹ŒËŒˆßB‚ˆ]P‹ŒŒÎˆßB‚ˆXÛØÛÛÜœÐKŒKŒNˆßB‚ˆXÛÛX]Ú‹ŒËŒŽˆßB‚ˆXÛÛX]ÚŒˆßB‚ˆÜÜÚX›K]\YX\œ˜^K[˜[Y\ÐKŒKŒˆßB‚ˆÜÝÜÜË]˜[YK\\œÙ\Œ‹ŒˆßB‚ˆÜÝÜÜÐKŒŒÎ‚ˆ\[™[˜ÚY\Î‚ˆ˜[›ÚYˆËŒËŒNˆXÛØÛÛÜœÎˆKŒKŒBˆÛÝ\˜ÙK[X\ZœÎˆKŒ‹ŒB‚ˆ™[YK[ÐKŒ‹ŒNˆßB‚ˆ›Ü]\\ÐMKŽŒN‚ˆ\[™[˜ÚY\Î‚ˆÛÜÙKY[šYžNˆKŒˆØš™XÝX\ÜÚYÛŽˆŒKŒBˆ™XXÝZ\ÎˆM‹ŒLËŒB‚ˆ[žXÛÙP‹ŒËŒNˆßB‚ˆ]Y]YK[ZXÜ›Ý\ÚÐKŒ‹ŒÎˆßB‚ˆ˜Y^]ZPK‹Ê\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜš[Z]]™IÎˆKŒKÂˆ	Ð˜Y^]ZKÜ™XXÝXXØÙ\ÜÚX›KZXÛÛ‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXXØÛÜ™[Û‰ÎˆKŒ‹ŒŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝX[\YX[ÙÉÎˆKŒKŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝX\œ›ÝÉÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝX\ÜXÝ\˜][ÉÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝX]˜]\‰ÎˆKŒ‹Š\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÚXÚØ›Þ	ÎˆKŒËŒLJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÚX›IÎˆKŒKŒŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛXÝ[Û‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ\ÜÙK\™YœÉÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^	ÎˆKŒ‹ŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝXÛÛ^[Y[IÎˆ‹ŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝYX[ÙÉÎˆKŒKŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\™XÝ[Û‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY\ÛZ\ÜØX›K[^Y\‰ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›ÜÝÛ‹[Y[IÎˆ‹ŒKŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\ËYÝX\™ÉÎˆKŒKŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›ØÝ\Ë\ØÛÜIÎˆKŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝY›Ü›IÎˆŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝZÝ™\‹XØ\™	ÎˆKŒKŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ[X™[	Îˆ‹ŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ[Y[IÎˆ‹ŒKŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ[Y[X˜\‰ÎˆKŒKŒ
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ[˜]šYØ][Û‹[Y[IÎˆKŒ‹ŒŒŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ[Û™K][YK\\ÜÝÛÜ™YšY[	ÎˆŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\\ÜÝÛÜ™]ÙÙÛKYšY[	ÎˆŒKŒLJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\ÜÝ™\‰ÎˆKŒKŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü\‰ÎˆKŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ü[	ÎˆKŒKŒMÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\™\Ù[˜ÙIÎˆKŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\š[Z]]™IÎˆ‹ŒKŒL
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\›ÙÜ™\ÜÉÎˆKŒKŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\˜Y[ËYÜ›Ý\	ÎˆKÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\›Ýš[™ËY›ØÝ\ÉÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\ØÜ›ÛX\™XIÎˆKŒ‹ŒN
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ù[XÝ	Îˆ‹ŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\Ù\\˜]Ü‰ÎˆKŒKŒMJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\ÛY\‰ÎˆKÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\ÛÝ	ÎˆKŒËŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ\ÝÚ]Ú	ÎˆKŒËÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]XœÉÎˆKŒKŒŒJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]Ø\Ý	ÎˆKŒ‹ŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]ÙÙÛIÎˆKŒKŒN
+\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]ÙÙÛKYÜ›Ý\	ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]ÛÛ˜\‰ÎˆKŒKŒNJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]ÛÛ\	ÎˆKŒ‹ŒMŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXØ[˜XÚË\™Y‰ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKXÛÛ›ÛX›K\Ý]IÎˆKŒ‹Š\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKYY™™XÝY]™[	ÎˆŒJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKY\ØØ\KZÙ^YÝÛ‰ÎˆKŒKJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙKZ\ËZY˜]Y	ÎˆŒKŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK[^[Ý]YY™™XÝ	ÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]\ÙK\Ú^™IÎˆKŒK
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ	Ð˜Y^]ZKÜ™XXÝ]š\ÝX[KZY[‰ÎˆKŒ‹ŒLJ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ	Ð\\ËÜ™XXÝYÛIÎˆNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+B‚ˆ™XXÝY^K\XÚÙ\LŒŒJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð]KY›œËÝ‰ÎˆKKŒˆ]KY›œÎˆŒˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆØÚY[\ŽˆŒËŒ‚ˆ™XXÝZÛÚËY›Ü›PËŽKŒ
+™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚‚ˆ™XXÝZ\ÐM‹ŒLËŒNˆßB‚ˆ™XXÝ\™Y^KŒËŒ
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠJ™Y^KŒŒJN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÝ\ÙK\Þ[˜ËY^\›˜[\ÝÜ™IÎˆŒ‚ˆ™XXÝˆNKŒ‹‚ˆ\ÙK\Þ[˜ËY^\›˜[\ÝÜ™NˆK‹Œ
+™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒMˆ™Y^ˆKŒŒB‚ˆ™XXÝ\™[[Ý™K\ØÜ›ÛX˜\‹ŒËŽ
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝ\Ý[K\Ú[™Û]ÛŽˆ‹Œ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆÛXŽˆ‹ŽŒBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ™XXÝ\™[[Ý™K\ØÜ›Û‹ËŒŠ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝ\™[[Ý™K\ØÜ›ÛX˜\Žˆ‹ŒËŽ
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ™XXÝ\Ý[K\Ú[™Û]ÛŽˆ‹Œ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆÛXŽˆ‹ŽŒBˆ\ÙKXØ[˜XÚË\™YŽˆKŒËŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆ\ÙK\ÚYXØ\ŽˆKŒKŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ™XXÝ\™\Ú^˜X›K\[™[ÐŒL‹ŒŠ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠB‚ˆ™XXÝ\Ù\™\‹YÛK]ÙXœXÚÐNKŒ‹Š™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠJÙXœXÚÐKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊJN‚ˆ\[™[˜ÚY\Î‚ˆXÛÜ›‹[ÛÜÙNˆKŒ‚ˆ™[ËX\Þ[˜Îˆ‹‹Œ‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÙXœXÚÎˆKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊBˆÙXœXÚË\ÛÝ\˜Ù\ÎˆËŒB‚ˆ™XXÝ\Ý[K\Ú[™Û]Û‹Œ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆÙ][›Û˜ÙNˆKŒŒBˆ™XXÝˆNKŒ‹‚ˆÛXŽˆ‹ŽŒBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ™XXÝNKŒ‹ŽˆßB‚ˆ™XÚ\ÐËŽŒ
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝZ\ÐM‹ŒLËŒJJ™XXÝNKŒ‹ŠJ™Y^KŒŒJN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð™Y^œËÝÛÛÚ]	Îˆ‹ŒL‹Œ
+™XXÝ\™Y^KŒËŒ
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠJ™Y^KŒŒJJJ™XXÝNKŒ‹ŠBˆÛÞˆ‹ŒKŒBˆXÚ[X[šœË[YÚˆ‹KŒBˆ\Ë]ÛÛÚ]ˆKLŒˆ]™[[Z]\ŒÎˆKŒˆ[[Y\ŽˆLŒ‹Œˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆ™XXÝZ\ÎˆM‹ŒLËŒBˆ™XXÝ\™Y^ˆKŒËŒ
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠJ™Y^KŒŒJBˆ™\Ù[XÝˆKŒKŒBˆ[žKZ[˜\šX[ˆKŒËŒÂˆ\ÙK\Þ[˜ËY^\›˜[\ÝÜ™NˆK‹Œ
+™XXÝNKŒ‹ŠBˆšXÝÜžK]™[™ÜŽˆÍËŒË‚ˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆH	Ð\\ËÜ™XXÝ	ÂˆH™Y^‚ˆ™Y^][šÐËŒKŒ
+™Y^KŒŒJN‚ˆ\[™[˜ÚY\Î‚ˆ™Y^ˆKŒŒB‚ˆ™Y^KŒŒNˆßB‚ˆ™Y›XÝ™Ù]›ÝÝ\[ÙKŒŒL‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒBˆÙ]Z[š[œÚXÎˆKŒËŒˆÙ]\›ÝÎˆKŒŒBˆÚXÚXZ[[‹]\NˆKŒ‹ŒB‚ˆ™YÙ^œ›ÝÝ\K™›YÜÐKK‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËY\œ›ÜœÎˆKŒËŒˆÙ]\›ÝÎˆKŒŒBˆÛÜˆKŒ‹ŒˆÙ]Y[˜Ý[Û‹[˜[YNˆ‹ŒŒ‚‚ˆ™\]Z\™KYœ›ÛK\Ýš[™Ð‹ŒŒŽˆßB‚ˆ™\Ù[XÝKŒKŒNˆßB‚ˆ™\Ù[XÝKŒ‹ŒˆßB‚ˆ™\ÛÛ™KYœ›ÛPŒŒˆßB‚ˆ™\ÛÛ™K\ÙË[X\ÐKŒŒˆßB‚ˆ™\ÛÛ™P‹ŒŒ[™^Î‚ˆ\[™[˜ÚY\Î‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆ\ËXÛÜ™K[[Ù[Nˆ‹ŒM‹Œ‚ˆ›ÙKY^ÜËZ[™›ÎˆK‹ŒˆØš™XÝZÙ^\ÎˆKŒKŒBˆ]\\œÙNˆKŒÂˆÝ\ÜË\™\Ù\™K\Þ[[[šÜËY›YÎˆKŒŒ‚ˆ™]\ÚYžPKŒKŒˆßB‚ˆ›ÛÝÛKŒŒN‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÞË\›Ú™XÝÝ\\ÉÎˆŒLÌŒˆ	Ð›ÛÝÛ‹ÜYÚ[][ÉÎˆKŒŒBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð›ÛÝÛ‹Øš[™[™ËX[™›ÚYX\›M	ÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™ËY\Ú[‹X\›M	ÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™ËY\Ú[‹^	ÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™ËYœ™YXœÙ^	ÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^X\›KYÛYXXšZ‰ÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^X\›MYÛIÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^X\›M[]\Û	ÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^\ÍYÛIÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^\ÌÎLYÛIÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^^YÛIÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™Ë[[^^[]\Û	ÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™Ë[Ü[š\›[ÛžKX\›M	ÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™Ë]Ø\ÛLÌ‹]Ø\ÚIÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™Ë]Ú[ŒÌ‹X\›M[\Ý˜ÉÎˆKŒŒBˆ	Ð›ÛÝÛ‹Øš[™[™Ë]Ú[ŒÌ‹^[\Ý˜ÉÎˆKŒŒB‚ˆ[‹\\˜[[KŒ‹Œ‚ˆ\[™[˜ÚY\Î‚ˆ]Y]YK[ZXÜ›Ý\ÚÎˆKŒ‹ŒÂ‚ˆØY™KX\œ˜^KXÛÛ˜Ø]KŒK‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆÙ]Z[š[œÚXÎˆKŒËŒˆ\Ë\Þ[X›ÛÎˆKŒKŒˆ\Ø\œ˜^Nˆ‹ŒB‚ˆØY™K\\ÚX\PKŒŒ‚ˆ\[™[˜ÚY\Î‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ø\œ˜^Nˆ‹ŒB‚ˆØY™K\™YÙ^]\ÝKŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ë\™YÙ^ˆKŒ‹ŒB‚ˆØ]ÜšPŒM‹Œ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÚY[™ËÛÜ[\KšœÉÎˆKŒX™]KŒˆÜÜËX˜XÚÙÜ›Ý[™\\œÙ\ŽˆŒKŒˆÜÜËX›Þ\ÚYÝÎˆKŒŒLÂˆÜÜËYÜ˜YY[\\œÙ\ŽˆŒŒM‚ˆÜÜË]Ë\™XXÝ[˜]]™NˆËŒ‹Œˆ[[ÚšK\™YÙ^^Îˆ‹ŒŒBˆ\ØØ\KZ[ˆKŒŒÂˆ[™Xœ™XZÎˆKŒKŒˆ\œÙKXÜÜËXÛÛÜŽˆŒ‹ŒBˆÜÝÜÜË]˜[YK\\œÙ\ŽˆŒ‹Œˆ[ÙØK[^[Ý]ˆËŒ‹ŒB‚ˆØÚY[\ŒËŒˆßB‚ˆØÚ[XK]][ÐŒËŒÎ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÚœÛÛ‹\ØÚ[XIÎˆËŒŒMBˆZŽˆŒŒŒˆZ‹Y›Ü›X]Îˆ‹ŒKŒJZŒŒŒ
+BˆZ‹ZÙ^]ÛÜ™ÎˆKŒKŒ
+ZŒŒŒ
+B‚ˆÙ[]™\‹ŒËŒNˆßB‚ˆÙ[]™\ËŽNˆßB‚ˆÙ]Y[˜Ý[Û‹[[™ÝKŒ‹ŒŽ‚ˆ\[™[˜ÚY\Î‚ˆYš[™KY]K\›Ü\NˆKŒKˆ\ËY\œ›ÜœÎˆKŒËŒˆ[˜Ý[Û‹Xš[™ˆKŒKŒ‚ˆÙ]Z[š[œÚXÎˆKŒËŒˆÛÜˆKŒ‹Œˆ\Ë\›Ü\KY\ØÜš\ÜœÎˆKŒŒ‚‚ˆÙ]Y[˜Ý[Û‹[˜[YP‹ŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆYš[™KY]K\›Ü\NˆKŒKˆ\ËY\œ›ÜœÎˆKŒËŒˆ[˜Ý[ÛœËZ]™K[˜[Y\ÎˆKŒ‹ŒÂˆ\Ë\›Ü\KY\ØÜš\ÜœÎˆKŒŒ‚‚ˆÙ]\›ÝÐKŒŒ‚ˆ\[™[˜ÚY\Î‚ˆ[™\‹\›ÝÎˆKŒŒBˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒB‚ˆÚ\œŒÍK
+\\ËÛ›ÙPŒ‹ŒNKŒNJN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð[YËØÛÛÝ\‰ÎˆKŒKŒˆ]XÝ[X˜Îˆ‹ŒKŒ‚ˆÙ[]™\ŽˆËŽBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð[YËÜÚ\œY\Ú[‹X\›M	ÎˆŒÍKˆ	Ð[YËÜÚ\œY\Ú[‹^	ÎˆŒÍKˆ	Ð[YËÜÚ\œYœ™YXœÙ]Ø\ÛLÌ‰ÎˆŒÍKˆ	Ð[YËÜÚ\œ[Xš\ËY\Ú[‹X\›M	ÎˆKŒËŒÂˆ	Ð[YËÜÚ\œ[Xš\ËY\Ú[‹^	ÎˆKŒËŒÂˆ	Ð[YËÜÚ\œ[Xš\Ë[[^X\›IÎˆKŒËŒÂˆ	Ð[YËÜÚ\œ[Xš\Ë[[^X\›M	ÎˆKŒËŒÂˆ	Ð[YËÜÚ\œ[Xš\Ë[[^\Í	ÎˆKŒËŒÂˆ	Ð[YËÜÚ\œ[Xš\Ë[[^\š\ØÝ	ÎˆKŒËŒÂˆ	Ð[YËÜÚ\œ[Xš\Ë[[^\ÌÎL	ÎˆKŒËŒÂˆ	Ð[YËÜÚ\œ[Xš\Ë[[^^	ÎˆKŒËŒÂˆ	Ð[YËÜÚ\œ[Xš\Ë[[^]\ÛX\›M	ÎˆKŒËŒÂˆ	Ð[YËÜÚ\œ[Xš\Ë[[^]\Û^	ÎˆKŒËŒÂˆ	Ð[YËÜÚ\œ[[^X\›IÎˆŒÍKˆ	Ð[YËÜÚ\œ[[^X\›M	ÎˆŒÍKˆ	Ð[YËÜÚ\œ[[^\Í	ÎˆŒÍKˆ	Ð[YËÜÚ\œ[[^\š\ØÝ	ÎˆŒÍKˆ	Ð[YËÜÚ\œ[[^\ÌÎL	ÎˆŒÍKˆ	Ð[YËÜÚ\œ[[^^	ÎˆŒÍKˆ	Ð[YËÜÚ\œ[[^]\ÛX\›M	ÎˆŒÍKˆ	Ð[YËÜÚ\œ[[^]\Û^	ÎˆŒÍKˆ	Ð[YËÜÚ\œ]ÙX˜ÛÛZ[™\œË]Ø\ÛLÌ‰ÎˆŒÍKˆ	Ð[YËÜÚ\œ]Ú[ŒÌ‹X\›M	ÎˆŒÍKˆ	Ð[YËÜÚ\œ]Ú[ŒÌ‹ZXLÌ‰ÎˆŒÍKˆ	Ð[YËÜÚ\œ]Ú[ŒÌ‹^	ÎˆŒÍKˆ	Ð\\ËÛ›ÙIÎˆŒ‹ŒNKŒNB‚ˆÚX˜[™ËXÛÛ[X[™‹ŒŒ‚ˆ\[™[˜ÚY\Î‚ˆÚX˜[™Ë\™YÙ^ˆËŒŒ‚ˆÚX˜[™Ë\™YÙ^ËŒŒˆßB‚ˆÚYKXÚ[›™[[\ÝKŒŒN‚ˆ\[™[˜ÚY\Î‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆØš™XÝZ[œÜXÝˆKŒLË‚ˆÚYKXÚ[›™[[X\KŒŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\ËY\œ›ÜœÎˆKŒËŒˆÙ]Z[š[œÚXÎˆKŒËŒˆØš™XÝZ[œÜXÝˆKŒLË‚ˆÚYKXÚ[›™[]ÙXZÛX\KŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\ËY\œ›ÜœÎˆKŒËŒˆÙ]Z[š[œÚXÎˆKŒËŒˆØš™XÝZ[œÜXÝˆKŒLËˆÚYKXÚ[›™[[X\ˆKŒŒB‚ˆÚYKXÚ[›™[KŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆØš™XÝZ[œÜXÝˆKŒLËˆÚYKXÚ[›™[[\ÝˆKŒŒBˆÚYKXÚ[›™[[X\ˆKŒŒBˆÚYKXÚ[›™[]ÙXZÛX\ˆKŒŒ‚‚ˆÛÛ›™\‹ŒŽ
+\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆÛÝ\˜ÙK[X\ZœÐKŒ‹ŒNˆßB‚ˆÛÝ\˜ÙK[X\\Ý\ÜKŒŒN‚ˆ\[™[˜ÚY\Î‚ˆY™™\‹Yœ›ÛNˆKŒKŒ‚ˆÛÝ\˜ÙK[X\ˆ‹ŒB‚ˆÛÝ\˜ÙK[X\‹ŒNˆßB‚ˆÜžŒLKŒMNˆßB‚ˆÝX›KZ\ÚŒNˆßB‚ˆÝÜZ]\˜][Û‹Z]\˜]ÜKŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆ[\›˜[\ÛÝˆKŒKŒ‚ˆÝš[™Ëœ›ÝÝ\K˜ÛÙ\Ú[]Œ‹ŒNˆßB‚ˆÝš[™Ëœ›ÝÝ\Kš[˜ÛY\Ð‹ŒŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚‚ˆÝš[™Ëœ›ÝÝ\K›X]Ú[ŒŒLŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒBˆÙ]Z[š[œÚXÎˆKŒËŒˆÛÜˆKŒ‹Œˆ\Ë\Þ[X›ÛÎˆKŒKŒˆ[\›˜[\ÛÝˆKŒKŒˆ™YÙ^œ›ÝÝ\K™›YÜÎˆKKˆÙ]Y[˜Ý[Û‹[˜[YNˆ‹ŒŒ‚ˆÚYKXÚ[›™[ˆKŒKŒ‚ˆÝš[™Ëœ›ÝÝ\Kœ™\X]KŒŒ‚ˆ\[™[˜ÚY\Î‚ˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚‚ˆÝš[™Ëœ›ÝÝ\Kš[PKŒ‹ŒL‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆYš[™KY]K\›Ü\NˆKŒKˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\ËXXœÝ˜XÝˆKŒŒ‚ˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒBˆ\Ë\›Ü\KY\ØÜš\ÜœÎˆKŒŒ‚‚ˆÝš[™Ëœ›ÝÝ\Kš[Y[™KŒŽN‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒB‚ˆÝš[™Ëœ›ÝÝ\Kš[\Ý\KŒŽ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆYš[™K\›Ü\Y\ÎˆKŒ‹ŒBˆ\Ë[Øš™XÝX]Û\ÎˆKŒKŒB‚ˆÝš\X›ÛPËŒŒˆßB‚ˆÝš\ZœÛÛ‹XÛÛ[Y[ÐËŒKŒNˆßB‚ˆÝš\[]\˜[ËŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆœË]ÚÙ[œÎˆKŒŒB‚ˆÝ[YZœÞKŒKŠ˜X™[ØÛÜ™PËŒŽKŒ
+Ý\ÜËXÛÛÜLŒ‹ŒŠJJ™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆÛY[[Û›NˆŒŒBˆ™XXÝˆNKŒ‹‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð˜X™[ØÛÜ™IÎˆËŒŽKŒ
+Ý\ÜËXÛÛÜLŒ‹ŒŠB‚ˆÝ\ÜËXÛÛÜLŒ‹ŒŽˆßB‚ˆÝ\ÜËXÛÛÜËŒ‹Œ‚ˆ\[™[˜ÚY\Î‚ˆ\ËY›YÎˆŒŒ‚ˆÝ\ÜËXÛÛÜŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆ\ËY›YÎˆŒŒ‚ˆÝ\ÜË\™\Ù\™K\Þ[[[šÜËY›YÐKŒŒˆßB‚ˆZ[Ú[™[Y\™ÙPË‹ŒˆßB‚ˆZ[Ú[™ÜÜÐŒ‹ŒNˆßB‚ˆ\X›P‹ŒËŒÎˆßB‚ˆ\œÙ\‹]ÙXœXÚË\YÚ[K‹Œ
+\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊJÙXœXÚÐKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊJN‚ˆ\[™[˜ÚY\Î‚ˆ	ÐœšYÙ]Ù[Ý˜XÙK[X\[™ÉÎˆŒËŒÌBˆ™\Ý]ÛÜšÙ\ŽˆËKŒBˆØÚ[XK]][ÎˆŒËŒÂˆ\œÙ\ŽˆKËŒBˆÙXœXÚÎˆKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ\ØZ[ˆŒŽŒˆYÚš[™ØÜÜÎˆKŒÌ‹ŒˆÜÝÜÜÎˆKŒŒÂ‚ˆ\œÙ\KËŒN‚ˆ\[™[˜ÚY\Î‚ˆ	ÐœšYÙ]Ù[ÜÛÝ\˜ÙK[X\	ÎˆŒËŒLBˆXÛÜ›ŽˆŒM‹ŒˆÛÛ[X[™\Žˆ‹ŒŒŒÂˆÛÝ\˜ÙK[X\\Ý\ÜˆKŒŒB‚ˆ[žKZ[™›]PKŒŒÎˆßB‚ˆ[žKZ[˜\šX[KŒËŒÎˆßB‚ˆ[žYÛØ˜žPŒ‹ŒMŽ‚ˆ\[™[˜ÚY\Î‚ˆ™\Žˆ‹KŒ
+XÛÛX]ÚŒ
+BˆXÛÛX]ÚˆŒ‚ˆË\™YÙ^\˜[™ÙPKŒŒN‚ˆ\[™[˜ÚY\Î‚ˆ\Ë[[X™\ŽˆËŒŒ‚ˆËX\K]][Ð‹KŒ
+\\ØÜš\KŽKŒÊN‚ˆ\[™[˜ÚY\Î‚ˆ\\ØÜš\ˆKŽKŒÂ‚ˆØÛÛ™šYË\]ÐËŒMKŒ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÚœÛÛIÎˆŒŒŽBˆœÛÛNˆKŒŒ‚ˆZ[š[Z\ÝˆKŒ‹ŽˆÝš\X›ÛNˆËŒŒ‚ˆÛX‹ŽŒNˆßB‚ˆÞŒŒ‹ŒN‚ˆ\[™[˜ÚY\Î‚ˆ\ØZ[ˆŒŽŒˆÜ[Û˜[\[™[˜ÚY\Î‚ˆœÙ]™[Îˆ‹ŒËŒÂ‚ˆ\˜›Ë\Ý™X[PËŒ‹ŒˆßB‚ˆËX[š[X]KXÜÜÐKŒˆßB‚ˆ\KXÚXÚÐŒ‚ˆ\[™[˜ÚY\Î‚ˆ™[YK[ÎˆKŒ‹ŒB‚ˆ\YX\œ˜^KXY™™\KŒŒÎ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\ËY\œ›ÜœÎˆKŒËŒˆ\Ë]\YX\œ˜^NˆKŒKŒMB‚ˆ\YX\œ˜^KXž]K[[™ÝKŒŒÎ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆ›Ü‹YXXÚˆŒËBˆÛÜˆKŒ‹Œˆ\Ë\›ÝÎˆKŒ‹Œˆ\Ë]\YX\œ˜^NˆKŒKŒMB‚ˆ\YX\œ˜^KXž]K[Ù™œÙ]KŒ‚ˆ\[™[˜ÚY\Î‚ˆ]˜Z[X›K]\YX\œ˜^\ÎˆKŒÂˆØ[Xš[™ˆKŒŽBˆ›Ü‹YXXÚˆŒËBˆÛÜˆKŒ‹Œˆ\Ë\›ÝÎˆKŒ‹Œˆ\Ë]\YX\œ˜^NˆKŒKŒMBˆ™Y›XÝ™Ù]›ÝÝ\[ÙŽˆKŒŒL‚ˆ\YX\œ˜^K[[™ÝKŒÎ‚ˆ\[™[˜ÚY\Î‚ˆØ[Xš[™ˆKŒŽBˆ›Ü‹YXXÚˆŒËBˆÛÜˆKŒ‹Œˆ\Ë]\YX\œ˜^NˆKŒKŒMBˆÜÜÚX›K]\YX\œ˜^K[˜[Y\ÎˆKŒKŒˆ™Y›XÝ™Ù]›ÝÝ\[ÙŽˆKŒŒL‚ˆ\\ØÜš\Y\Û[NKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ØÜš\Y\Û[Ù\Û[\YÚ[‰ÎˆNKŒÊ\\ØÜš\Y\Û[Ü\œÙ\NKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊJJ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ	Ð\\ØÜš\Y\Û[Ü\œÙ\‰ÎˆNKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ	Ð\\ØÜš\Y\Û[Ý\\ØÜš\Y\Ý™YIÎˆNKŒÊÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ	Ð\\ØÜš\Y\Û[Ý][ÉÎˆNKŒÊ\Û[KŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠJJÝ\ÜËXÛÛÜLŒ‹ŒŠJ\\ØÜš\KŽKŒÊBˆ\Û[ˆKŒÎK
+š]P‹ËŒ
+JÝ\ÜËXÛÛÜLŒ‹ŒŠBˆ\\ØÜš\ˆKŽKŒÂˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆHÝ\ÜËXÛÛÜ‚‚ˆ\\ØÜš\KŽKŒÎˆßB‚ˆ[˜›Þ\š[Z]]™PKŒKŒ‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ\ËXšYÚ[ÎˆKŒKŒˆ\Ë\Þ[X›ÛÎˆKŒKŒˆÚXÚX›ÞY\š[Z]]™NˆKŒKŒB‚ˆ[™XÚK]\\Ð‹ŒŒKŒˆßB‚ˆ[™XÚPËŒŽˆßB‚ˆ[™[‹ŒŒ\˜ËŒ‚ˆ\[™[˜ÚY\Î‚ˆ]Nˆ‹ŒŒÂ‚ˆ[šXÛÙK]šYP‹ŒŒ‚ˆ\[™[˜ÚY\Î‚ˆZÛÎˆŒ‹ŽBˆ[žKZ[™›]NˆKŒŒÂ‚ˆ[œXÐŒ‹ŒŽˆßB‚ˆ[œœË\™\ÛÛ™\KŒLKŒN‚ˆ\[™[˜ÚY\Î‚ˆ˜\K\ÜÝ[œÝ[ˆŒËˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™ËX[™›ÚYX\›KYXXšIÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™ËX[™›ÚYX\›M	ÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™ËY\Ú[‹X\›M	ÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™ËY\Ú[‹^	ÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™ËYœ™YXœÙ^	ÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^X\›KYÛYXXšZ‰ÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^X\›K[]\ÛXXšZ‰ÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^X\›MYÛIÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^X\›M[]\Û	ÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^\ÍYÛIÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^\š\ØÝYÛIÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^\š\ØÝ[]\Û	ÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^\ÌÎLYÛIÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^^YÛIÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë[[^^[]\Û	ÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë]Ø\ÛLÌ‹]Ø\ÚIÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë]Ú[ŒÌ‹X\›M[\Ý˜ÉÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë]Ú[ŒÌ‹ZXLÌ‹[\Ý˜ÉÎˆKŒLKŒBˆ	Ð[œœËÜ™\ÛÛ™\‹Xš[™[™Ë]Ú[ŒÌ‹^[\Ý˜ÉÎˆKŒLKŒB‚ˆ\]KXœ›ÝÜÙ\œÛ\ÝYKŒ‹ŒÊœ›ÝÜÙ\œÛ\ÝŒŽŒŠN‚ˆ\[™[˜ÚY\Î‚ˆœ›ÝÜÙ\œÛ\ÝˆŒŽŒ‚ˆ\ØØ[YNˆËŒ‹ŒˆXÛØÛÛÜœÎˆKŒKŒB‚ˆ\šKZœÐŒN‚ˆ\[™[˜ÚY\Î‚ˆ[žXÛÙNˆ‹ŒËŒB‚ˆ\ÙKXØ[˜XÚË\™YKŒËŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚ˆÛXŽˆ‹ŽŒBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ\ÙK\ÚYXØ\KŒKŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ]XÝ[›ÙKY\ÎˆKŒKŒˆ™XXÝˆNKŒ‹‚ˆÛXŽˆ‹ŽŒBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÜ™XXÝ	ÎˆNKŒ‹ŒM‚ˆ\ÙK\Þ[˜ËY^\›˜[\ÝÜ™PK‹Œ
+™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ™XXÝˆNKŒ‹‚‚ˆ˜][KŒKŒŠ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð˜Y^]ZKÜ™XXÝYX[ÙÉÎˆKŒKŒŒÊ\\ËÜ™XXÝYÛPNKŒ‹ŒÊ\\ËÜ™XXÝNKŒ‹ŒM
+JJ\\ËÜ™XXÝNKŒ‹ŒM
+J™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆH	Ð\\ËÜ™XXÝ	ÂˆH	Ð\\ËÜ™XXÝYÛIÂ‚ˆšXÝÜžK]™[™ÜÍËŒËŽ‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÙËX\œ˜^IÎˆËŒ‹Œ‚ˆ	Ð\\ËÙËYX\ÙIÎˆËŒŒ‚ˆ	Ð\\ËÙËZ[\œÛ]IÎˆËŒˆ	Ð\\ËÙË\ØØ[IÎˆŒŽBˆ	Ð\\ËÙË\Ú\IÎˆËŒKŽˆ	Ð\\ËÙË][YIÎˆËŒˆ	Ð\\ËÙË][Y\‰ÎˆËŒŒ‚ˆËX\œ˜^NˆËŒ‹ˆËYX\ÙNˆËŒŒBˆËZ[\œÛ]NˆËŒŒBˆË\ØØ[NˆŒŒ‚ˆË\Ú\NˆËŒ‹ŒˆË][YNˆËŒKŒˆË][Y\ŽˆËŒŒB‚ˆš[™^KŒŒX™]KJš]ZœËÜYÚ[‹\™XXÝ‹ŒŒŠš]PŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJJJJš]ZœËÜYÚ[‹\œØÐKŒŠ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝ\Ù\™\‹YÛK]ÙXœXÚÐNKŒ‹Š™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠJÙXœXÚÐKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊJJJ™XXÝNKŒ‹ŠJš]PŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJJJJ™^M‹ŒË
+˜X™[ØÛÜ™PËŒŽKŒ
+Ý\ÜËXÛÛÜLŒ‹ŒŠJJ\\ËÛ›ÙPŒ‹ŒNKŒNJJ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠJJ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝ\Ù\™\‹YÛK]ÙXœXÚÐNKŒ‹Š™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠJÙXœXÚÐKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊJJJ™XXÝNKŒ‹ŠJš]PŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJJN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð[œXËÜ™XXÝ	ÎˆKŒŒŠ™^M‹ŒË
+˜X™[ØÛÜ™PËŒŽKŒ
+Ý\ÜËXÛÛÜLŒ‹ŒŠJJ\\ËÛ›ÙPŒ‹ŒNKŒNJJ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠJJ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠBˆ	Ð™\˜Ù[ÛÙÉÎˆŽ‚ˆ	Ðš[™^Ý\\ÉÎˆKŒŒX™]KŒ‚ˆ	Ðš]ZœËÜYÚ[‹\™XXÝ	Îˆ‹ŒŒŠš]PŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJJBˆ[XYÙK\Ú^™Nˆ‹ŒŒ‚ˆ\Y‹šœÎˆ‹ŒˆXYÚXË\Ýš[™ÎˆŒÌŒŒBˆ™XXÝˆNKŒ‹‚ˆ™XXÝYÛNˆNKŒ‹Š™XXÝNKŒ‹ŠBˆš]NˆŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJBˆš]K\YÚ[‹XÛÛ[[ÛšœÎˆŒLˆÙX‹]š][ÎˆŒ‹ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ðš]ZœËÜYÚ[‹\œØÉÎˆKŒŠ™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝ\Ù\™\‹YÛK]ÙXœXÚÐNKŒ‹Š™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠJÙXœXÚÐKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊJJJ™XXÝNKŒ‹ŠJš]PŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJJBˆ™XXÝ\Ù\™\‹YÛK]ÙXœXÚÎˆNKŒ‹Š™XXÝYÛPNKŒ‹Š™XXÝNKŒ‹ŠJJ™XXÝNKŒ‹ŠJÙXœXÚÐKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊJBˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆH™^‚ˆš]K\YÚ[‹XÛÛ[[ÛšœÐŒL‚ˆ\[™[˜ÚY\Î‚ˆXÛÜ›ŽˆŒM‹ŒˆXYÚXË\Ýš[™ÎˆŒÌŒŒBˆš]K\YÚ[‹Y[˜[ZXËZ[\ÜˆK‹Œ‚ˆš]K\YÚ[‹Y[˜[ZXËZ[\ÜK‹Œ‚ˆ\[™[˜ÚY\Î‚ˆXÛÜ›ŽˆŒM‹Œˆ\Ë[[Ù[K[^\ŽˆKËŒˆ˜\ÝYÛØŽˆËŒËŒÂˆXYÚXË\Ýš[™ÎˆŒÌŒŒB‚ˆš]PŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJN‚ˆ\[™[˜ÚY\Î‚ˆYÚš[™ØÜÜÎˆKŒÌ‹ŒˆXÛÛX]ÚˆŒˆÜÝÜÜÎˆKŒŒÂˆ›ÛÝÛŽˆKŒŒBˆ[žYÛØ˜žNˆŒ‹ŒM‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	Ð\\ËÛ›ÙIÎˆŒ‹ŒNKŒNBˆ\ØZ[ˆŒŽŒˆœÙ]™[Îˆ‹ŒËŒÂˆš]Nˆ‹ËŒˆ\œÙ\ŽˆKËŒBˆÞˆŒŒ‹ŒB‚ˆš]YPKŒKŒÊš]PŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJJN‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆš]NˆŒŒLÊ\\ËÛ›ÙPŒ‹ŒNKŒNJJ\ØZ[ŒŽŒ
+Jš]P‹ËŒ
+J\œÙ\KËŒJJÞŒŒ‹ŒJB‚ˆØ]ÚXÚÐ‹KŒN‚ˆ\[™[˜ÚY\Î‚ˆÛØ‹]Ë\™YÙ^ˆŒBˆÜ˜XÙY[YœÎˆŒ‹ŒLB‚ˆÙX‹]š][ÐŒ‹ˆßB‚ˆÙXœXÚË\ÛÝ\˜Ù\ÐËŒNˆßB‚ˆÙXœXÚÐKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊN‚ˆ\[™[˜ÚY\Î‚ˆ	Ð\\ËÙ\Û[\ØÛÜIÎˆËËÂˆ	Ð\\ËÙ\Ý™YIÎˆKŒŽBˆ	Ð\\ËÚœÛÛ‹\ØÚ[XIÎˆËŒŒMBˆ	ÐÙX˜\ÜÙ[X›ZœËØ\Ý	ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛKYY]	ÎˆKŒMŒBˆ	ÐÙX˜\ÜÙ[X›ZœËÝØ\ÛK\\œÙ\‰ÎˆKŒMŒBˆXÛÜ›ŽˆŒM‹ŒˆXÛÜ›‹Z[\Ü\\Ù\ÎˆKŒ
+XÛÜ›ŒM‹Œ
+Bˆœ›ÝÜÙ\œÛ\ÝˆŒŽŒ‚ˆÚ›ÛYK]˜XÙKY]™[ˆKŒˆ[š[˜ÙY\™\ÛÛ™NˆKŒŒKŒÂˆ\Ë[[Ù[K[^\Žˆ‹ŒKŒˆ\Û[\ØÛÜNˆKŒKŒBˆ]™[ÎˆËŒËŒˆÛØ‹]Ë\™YÙ^ˆŒBˆÜ˜XÙY[YœÎˆŒ‹ŒLBˆØY\‹\[›™\ŽˆŒËŒ‚ˆZ[YKYŽˆKMŒˆ™[ËX\Þ[˜Îˆ‹‹Œ‚ˆØÚ[XK]][ÎˆŒËŒÂˆ\X›Nˆ‹ŒËŒÂˆ\œÙ\‹]ÙXœXÚË\YÚ[ŽˆK‹Œ
+\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊJÙXœXÚÐKŒL‹ŒŠ\ØZ[ŒŽŒ
+JYÚš[™ØÜÜÐKŒÌ‹Œ
+JÜÝÜÜÐKŒŒÊJBˆØ]ÚXÚÎˆ‹KŒBˆÙXœXÚË\ÛÝ\˜Ù\ÎˆËŒBˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆH	ÐZ[šYžKZ[Û›ÙIÂˆH	ÐÝØËØÛÜ™IÂˆH	ÐÝØËØÜÜÉÂˆH	ÐÝØËÚ[	ÂˆHÛX[‹XÜÜÂˆHÜÜÛ˜[›ÂˆHÜÜÛÂˆH\ØZ[ˆH[[Z[šYšY\‹]\œÙ\‚ˆHYÚš[™ØÜÜÂˆHÜÝÜÜÂˆHYÛYžKZœÂ‚ˆÚXÚX›ÞY\š[Z]]™PKŒKŒN‚ˆ\[™[˜ÚY\Î‚ˆ\ËXšYÚ[ˆKŒKŒˆ\ËX›ÛÛX[‹[Øš™XÝˆKŒ‹Œ‚ˆ\Ë[[X™\‹[Øš™XÝˆKŒKŒBˆ\Ë\Ýš[™ÎˆKŒKŒBˆ\Ë\Þ[X›ÛˆKŒKŒB‚ˆÚXÚXZ[[‹]\PKŒ‹ŒN‚ˆ\[™[˜ÚY\Î‚ˆØ[X›Ý[™ˆKŒˆ[˜Ý[Û‹œ›ÝÝ\K›˜[YNˆKŒKŽˆ\Ë]ÜÝš[™ÝYÎˆKŒŒ‚ˆ\ËX\Þ[˜ËY[˜Ý[ÛŽˆ‹ŒKŒBˆ\ËY]K[Øš™XÝˆKŒKŒˆ\ËYš[˜[^˜][Ûœ™YÚ\ÝžNˆKŒKŒBˆ\ËYÙ[™\˜]Ü‹Y[˜Ý[ÛŽˆKŒKŒ‚ˆ\Ë\™YÙ^ˆKŒ‹ŒBˆ\Ë]ÙXZÜ™YŽˆKŒKŒBˆ\Ø\œ˜^Nˆ‹ŒBˆÚXÚX›ÞY\š[Z]]™NˆKŒKŒBˆÚXÚXÛÛXÝ[ÛŽˆKŒŒ‚ˆÚXÚ]\YX\œ˜^NˆKŒKŒŒ‚ˆÚXÚXÛÛXÝ[ÛKŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ\Ë[X\ˆ‹ŒŒÂˆ\Ë\Ù]ˆ‹ŒŒÂˆ\Ë]ÙXZÛX\ˆ‹ŒŒ‚ˆ\Ë]ÙXZÜÙ]ˆ‹Œ‚ˆÚXÚ]\YX\œ˜^PKŒKŒŒ‚ˆ\[™[˜ÚY\Î‚ˆ]˜Z[X›K]\YX\œ˜^\ÎˆKŒÂˆØ[Xš[™ˆKŒŽBˆØ[X›Ý[™ˆKŒˆ›Ü‹YXXÚˆŒËBˆÙ]\›ÝÎˆKŒŒBˆÛÜˆKŒ‹Œˆ\Ë]ÜÝš[™ÝYÎˆKŒŒ‚‚ˆÚXÚ‹ŒŒŽ‚ˆ\[™[˜ÚY\Î‚ˆ\Ù^Nˆ‹ŒŒ‚ˆÛÜ™]Ü˜\KŒ‹NˆßB‚ˆÛÜšÙ\™KŒŒŒLMKŒN‚ˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	ÐÛÝY›\™KÝÛÜšÙ\™Y\Ú[‹M	ÎˆKŒŒŒLMKŒBˆ	ÐÛÝY›\™KÝÛÜšÙ\™Y\Ú[‹X\›M	ÎˆKŒŒŒLMKŒBˆ	ÐÛÝY›\™KÝÛÜšÙ\™[[^M	ÎˆKŒŒŒLMKŒBˆ	ÐÛÝY›\™KÝÛÜšÙ\™[[^X\›M	ÎˆKŒŒŒLMKŒBˆ	ÐÛÝY›\™KÝÛÜšÙ\™]Ú[™ÝÜËM	ÎˆKŒŒŒLMKŒB‚ˆÜ˜[™Û\ŽL‹Œ
+ÛÝY›\™KÝÛÜšÙ\œË]\\ÐŒŒŒLMKŒJJ\\ËÛ›ÙPŒ‹ŒNKŒNJN‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÛÝY›\™KÚÝ‹X\ÜÙ]Z[™\‰ÎˆKŒˆ	ÐÛÝY›\™KÝ[™[‹\™\Ù]	Îˆ‹ŒM‹ŒJ[™[‹ŒŒ\˜ËŒ
+JÛÜšÙ\™KŒŒŒLMKŒJBˆ›ZÙLË]Ø\ÛNˆ‹ŒKBˆ\ØZ[ˆŒËŒÂˆZ[šY›\™NˆŒŒŒLMKŒ
+\\ËÛ›ÙPŒ‹ŒNKŒNJBˆ]]Ë\™YÙ^ˆ‹ŒËŒˆ[™[Žˆ‹ŒŒ\˜ËŒˆÛÜšÙ\™ˆKŒŒŒLMKŒBˆÜ[Û˜[\[™[˜ÚY\Î‚ˆ	ÐÛÝY›\™KÝÛÜšÙ\œË]\\ÉÎˆŒŒŒLMKŒBˆœÙ]™[Îˆ‹ŒËŒÂˆ˜[œÚ]]™TY\‘\[™[˜ÚY\Î‚ˆH	Ð\\ËÛ›ÙIÂˆHY™™\][ˆH]‹N]˜[Y]B‚ˆÜÐŒNŒˆßB‚ˆX[\ÝËŒKŒNˆßB‚ˆ[ØÝË\]Y]YPŒKŒˆßB‚ˆ[ÙØK[^[Ý]ËŒ‹ŒNˆßB‚ˆ[ÝXÚXÛÜ™PŒËŒÎ‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÜ[œÜËÙ^Ù\[Û‰ÎˆKŒ‹ŒÂˆ\œ›Ü‹\ÝXÚË\\œÙ\‹Y\ÎˆKŒB‚ˆ[ÝXÚŒKŒX™]KŒL‚ˆ\[™[˜ÚY\Î‚ˆ	ÐÜ[œÜËØÛÛÜœÉÎˆŒK‚ˆ	ÐÜ[œÜËÙ[\\‰Îˆ‹Bˆ	ÐÜYYZYÚYÚØÛÜ™IÎˆKŒ‹ŒMBˆÛÛÚÚYNˆKŒKŒBˆ[ÝXÚXÛÜ™NˆŒËŒÂ‚ˆ›Ù]˜[Y][Û‹Y\œ›ÜŒŒŠ›ÙËŒKÍŠN‚ˆ\[™[˜ÚY\Î‚ˆ›ÙˆËŒKÍ‚‚ˆ›ÙËŒKÍŽˆßB
